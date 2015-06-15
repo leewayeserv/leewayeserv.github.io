@@ -1,0 +1,292 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="google-site-verification" content="v-kxYptb9mvq79XFodj8c19m_uCWRW8l43z50X6yZes" />
+<script type="text/javascript" src="/static/js/analytics.js"></script>
+<script type="text/javascript">archive_analytics.values.server_name="wwwb-app14.us.archive.org";archive_analytics.values.server_ms=560;</script>
+<link type="text/css" rel="stylesheet" href="/static/css/banner-styles.css"/>
+<title>Leeway</title>
+<meta charset="utf-8">
+<meta name="google-site-verification" content="-nmvIynQvHgW-KZtIzv-4tMKFJLmeeuP_hSxIvNidEI" />
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script> 
+<script type="text/javascript" src="js/Terminal_Dosis_300.font.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.waterwheelCarousel.js"></script>
+   
+    <script type="text/javascript">
+      $(document).ready(function () {
+        var carousel = $("#carousel").waterwheelCarousel({
+          flankingItems: 3,
+          movingToCenter: function ($item) {
+            $('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedToCenter: function ($item) {
+            $('#callback-output').prepend('movedToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movingFromCenter: function ($item) {
+            $('#callback-output').prepend('movingFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedFromCenter: function ($item) {
+            $('#callback-output').prepend('movedFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          clickedCenter: function ($item) {
+            $('#callback-output').prepend('clickedCenter: ' + $item.attr('id') + '<br/>');
+          }
+        });
+        $('#prev').bind('click', function () {
+          carousel.prev();
+          return false
+        });
+        $('#next').bind('click', function () {
+          carousel.next();
+          return false;
+        });
+        $('#reload').bind('click', function () {
+          newOptions = eval("(" + $('#newoptions').val() + ")");
+          carousel.reload(newOptions);
+          return false;
+        });
+      });
+    </script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    var showChar = 100;
+    var ellipsestext = "...";
+    var moretext = "View more";
+    var lesstext = "View less";
+    $('.more').each(function() {
+        var content = $(this).html();
+ 
+        if(content.length > showChar) {
+ 
+            var c = content.substr(0, showChar-1);
+            var h = content.substr(showChar-1, content.length - showChar);
+ 
+            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="button">' + moretext + '</a></span>';
+ 
+            $(this).html(html);
+        }
+ 
+    });
+ 
+    $(".button").click(function(){
+        if($(this).hasClass("less")) {
+            $(this).removeClass("less");
+            $(this).html(moretext);
+        } else {
+            $(this).addClass("less");
+            $(this).html(lesstext);
+        }
+        $(this).parent().prev().toggle();
+        $(this).prev().toggle();
+        return false;
+    });
+});
+</script>
+</head>
+<body id="page1">
+<div class="body1">
+<div class="logo"></div>
+<div class="tagline"><marquee direction="left" scrolldelay="150"><img src="images/tagline.png" height="28"></marquee></div>
+	<div class="body2">
+		<div class="body3">
+			<div class="main">
+<!-- header -->
+				<header>
+					<div class="wrapper">
+						
+						<div id="search">
+                        </div>
+                          <nav>
+                              <ul id="menu">
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="about.html">About Us</a></li>
+                              <li><a href="whyus.html">Why Us</a></li>
+                              <li><a href="Industries.html">Your Industry</a></li>
+                              <li><a href="service.html">Our Services</a></li>
+                              <li><a href="career.html">Career</a></li>
+                              <li class="end"><a href="Contact.html">Contact</a></li>
+                              </ul>
+                          </nav>
+					</div>
+					
+	<div>
+						<div id="carousel">
+      <a href="Services.html"><img src="images/1.png" id="item-1" /></a>
+     <a href="#"> <img src="images/2.png" id="item-2" /></a>
+      <a href="WhyUs.html"><img src="images/3.png" id="item-3" /></a>
+      <a href="#"><img src="images/4.png" id="item-4" /></a>
+      <a href="#"><img src="images/5.png" id="item-5" /></a>
+      <a href="#"><img src="images/6.png" id="item-6" /></a>
+      <a href="#"><img src="images/7.png" id="item-7" /></a>
+      <a href="#"><img src="images/8.png" id="item-8" /></a>
+    </div>
+					</div>
+</header><div class="ic"></div>	
+<section id="content">
+					<div>
+						<div class="line2 wrapper" style="margin-top: 38px;">
+							<div class="wrapper">
+								<!--<!--<article class="col1" style="width:265px">
+									<h2>Our Focus</h2>
+									<!--<figure><img src="images/page1_img1.jpg" alt="" class="pad_bot1"></figure>
+									<div class="comment more">
+											
+											Maximize the rewards of our diversity and delivery capabilities by providing end to end solutions, which are easy to maintain and upgrade. Modular Programming approach to provide innovative and easily manageable solutions from our services.
+										
+									</div>
+								</article>
+								<article class="col2 pad_left1" style="width:265px;">
+									<h2>Our Strategy</h2>
+									<div class="comment more">
+										We learn our duties and responsibilities to deliver the best in what we do. We learn to understand the social and country's responsibility.Grow our Integrity, discipline, knowledge, health, wealth and way of life.
+									</div>
+								</article>-->
+                                <article class="col1"  style="width:597px">
+                                <h2>Welcome to Our Company</h2>
+								<div class="wrapper">
+							<figure class="left marg_right1"><img src="images/page1_img2.jpg" alt=""></figure>
+							
+                  
+<p align="justify"><strong>Leeway</strong>								provides full-spectrum consulting, technology and business process outsourcing services. Our differentiating model is unique and more centric towards Business Outcomes. Armed with a team of dedicated, experienced and motivated individuals, with over two decades of successful Outsourcing and Consulting experience with the sole intent to make customer service experience delightful.							</p>
+                                                    
+<p align="justify">This diversified, well-trained and motivated talent pool works cohesively and is geared up to deliver solutions based around a mature global delivery model to clients across the Americas, Europe- Middle East-Africa (EMEA) and Asia-Pacific. We are large enough to be resourceful and small enough to be flexible. </p>
+                            
+                            <article class="col1">
+						<a href="about.html" class="button1">Read More</a>
+					</article>
+						</div>
+						
+					</article>
+						
+						
+						<article class="col3 pad_left1">
+									<h2>What’s New</h2>
+									<div class="pad">
+										<div class="wrapper">
+											<marquee behavior="scroll" direction="up" scrollamount="2" onMouseOver="this.stop();" onMouseOut="this.start();" height="240">
+                        <p>
+						</p>
+            			
+			
+      <ul class="list1">						
+<li style="color:#333;"><a1> Our strength is our people.</a1></li>						
+<li style="color:#333;"><a1>Our team will always strive hard to give the best services to our clients.</a1></li>						
+<li style="color:#333;"><a1>We bring Talent and Technology together to support our International clients by providing end-to-end offshore Business Process Outsourcing.</a1></li>						</ul>		 
+		 
+		         <p></p></marquee>
+											
+										</div>
+										
+									</div>
+								</article>
+								
+							</div>
+							<!--<div class="wrapper buttons">
+								<article class="col1">
+									<a href="#" class="button">Read More</a>
+								</article>
+								<!--<article class="col2 pad_left1">
+									<a href="#" class="button">Read More</a>
+								</article>
+								
+							</div>-->
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</div>
+   <div class="body4">
+	<div class="main">
+		<section id="content2">
+			<div class="line2 wrapper">
+				<div class="wrapper">
+					<article class="col1" style="width:265px">
+									<h2>Focus</h2>
+									
+									<div class="comment more">
+											
+										
+                                 
+  <span style="color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; line-height: 20px; text-align: justify; background-color: rgb(85, 85, 85);">Maximize the rewards of our diversity and delivery capabilities by providing end to end solutions, which are easy to maintain and upgrade. Modular Programming approach to provide innovative and easily manageable solutions from our services.</span>    
+										
+									</div>
+								</article>
+								<article class="col2 pad_left1" style="width:265px;">
+									<h2>Our Stategy</h2>
+									<div class="comment more">
+										
+                                 
+<p class="MsoNormal"><font size="4"><span style="line-height: 115%;">Understand specific client requirements and Benchmark Globally  our internal processes and quality of service delivery to provide world class  services to our clients. </span><span style="line-height: 115%; line-height: 115%;" arial?,?sans-serif?;mso-fareast-font-family:?times="" new="" roman?;="" color:white?=""></span></font></p>
+    
+<p class="MsoNormal"><span style="line-height: 115%;"><font size="4">Have a focused agenda on social and country's responsibility  and work with Integrity, discipline, fairness and passion to achieve all round  growth for our organization, employees and shareholders</font></span></p>
+									</div>
+								</article>
+					<article class="col3 pad_left1">
+					
+						<iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FLeewayEServBPO&amp;width=200&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true&amp;appId=593783910667753" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:290px; background-color: white;" allowTransparency="true" ></iframe>
+					</article>
+				</div>
+				
+			</div>
+		</section>
+	</div>
+</div>		
+<!-- / content -->
+<div class="main">
+<!-- footer -->
+	<footer>
+		<div class="wrapper">
+			<span class="left">
+			 	<a rel="nofollow" title="Web Designing, Web Development, Software Development, SEO, E-Commerce Solutions, Web Hosting Services by Winner Wings Technology" href="http://www.winwingstech.com/" target="_blank">Website Developed</a> and designed by Winner Wings Technology<br>
+			</span>
+			<ul id="icons">
+				<li><a href="https://www.facebook.com/LeewayEServBPO" class="normaltip" title="Facebook"><img src="images/icon1.png" alt=""></a></li>
+				
+				
+				<li><a href="https://twitter.com/LeewayEServBPO" class="normaltip" title="Twitter"><img src="images/icon4.png" alt=""></a></li>
+				<li><a href="http://www.linkedin.com/in/leewayeserv" class="normaltip" title="Linkedin"><img src="images/icon5.png" alt=""></a></li>
+				
+			</ul>
+		</div>
+<!-- {%FOOTER_LINK} -->
+	</footer>
+<!-- / footer -->
+</div><script type="text/javascript"> Cufon.now(); </script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#myRoundabout').roundabout({
+			 shape: 'square',
+			 minScale: 0.93, // tiny!
+			 maxScale: 1, // tiny!
+			 easing:'easeOutExpo',
+			 clickToFocus:'true',
+			 focusBearing:'0',
+			 duration:800,
+			 reflect:true
+		});
+	});
+</script>
+</body>
+</html>
+								
+						
+								
+                                
+	
+  
+<!--
+     FILE ARCHIVED ON 1:06:06 Jun 13, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 7:42:23 Jun 15, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
