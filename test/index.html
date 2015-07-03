@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
     <link rel="shortcut icon" href="favicon.ico" />
     <!--Styles-->
     <style>
@@ -417,7 +417,6 @@
   }
 
  </style>
-    
 </head>
 <body>
     
@@ -667,4 +666,16 @@
 </body>
     <!--Email sending js-->
     <script src="data/js/contact.js" type="text/javascript" async="async" defer="defer"></script>
+	<script type="text/javascript">
+	var homeDiv = $('#home-page'),
+	winheight=$(window).height();
+	function setVars(){
+		homeDiv.css("height",winheight);
+	}
+	$(document).ready(setVars());
+	$(window).resize(function(){
+		winheight = $(window).height();
+		setVars();
+	});
+ </script>
 </html>
