@@ -9,155 +9,34 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <style>
-        .navbar {
-            font-family: 'Open Sans';
-            background-color: #3F9A93;
-            font-size: 18px;
-            height: 55px;
-            line-height: 50px;
-            color: #ffffff;
-        }
-
-        .navbar-fixed-top {
-            top: 0px;
-            border-top-width: 0px;
-            border-right-width: 0px;
-            border-bottom-width: 0px;
-            color: #ffffff;
-        }
-
-        .navbar-hearder {
-            margin-left: 55px;
-        }
-
-
-        #top_list {
-            color: #ffffff;
-            margin-right: 10px;
-        }
-
-        .indy-head {
-            text-align: center;
-            color: #3F9A93;
-            font-family: 'Open Sans';
-            font-size: 43px;
-            font-weight: 700;
-            line-height: 10px;
-            margin-top: 7%;
-        }
-
-        .uimg{
-        text-align:center;
-        margin-top:20px;
-    }
-
-        .market-head {
-            font-family: 'Open Sans';
-            font-size: 25px;
-            margin-left: 12%;
-            font-weight: 600;
-        }
-
-        .market-text {
-            font-family: 'Open Sans';
-            font-size: 18px;
-            margin-left: 11%;
-            margin-right: 11%;
-            text-align:justify;
-        }
-
-        .market-subtext {
-            font-family: 'Open Sans';
-            font-size: 18px;
-            margin-left: 13%;
-            margin-right: 13%;
-            text-align:justify;
-        }
-
-    footer{
-     background-color:#000000;
-     width:100%;
-     position:static;
-     bottom:0;
-     left:0;
- }
-   .footer-header{
-      margin-bottom:0px;
-  }
-
-  .mg-lt-rt{
-      margin-left:4%;
-      margin-right:3%;
-  }
-
-  .service-list{
-      list-style-type:none;
-      width:100%;
-      text-align:left;
-  }
-
-  .main-links{
-      line-height:15px;
-      vertical-align:top;
-      display:inline-block;
-      text-align:left;
-      width:18%;
-      margin-bottom:24px;
-      font-size:16px;
-      margin-top:10px;
-  }
-
-  .link-container{
-      font-size:12px;
-      font-family:'Open Sans';
-      font-weight:bolder;
-      display:block;
-      color:#a2a9ad;
-      line-height:30px;
-      list-style-type:none;
-      text-decoration-style:none;
-  }
-
-  .sub-link-container{
-      font-size:11px;
-      font-family:'Open Sans';
-      font-weight:bold;
-      display:block;
-      color:#a2a9ad;
-      line-height:30px;
-      list-style-type:none;
-      text-decoration-style:none;
-      margin-left:5px;
-  }
-
-  .link-color{
-      color:#a2a9ad;
-  }
-
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="data/css/leeway.css" />
+ 
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div id="top_nav_div" class="container-fluid">
             <div class="navbar-hearder pull-left">
                 <a href="index.html"><img src="logo.png" height="48" width="230" /></a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-fields">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
 
-            <div class="pull-right" id="navigation-fields">
+            <div class="navbar-collapse collapse pull-right" id="navigation-fields">
                 <ul id="top_list" class="nav navbar-nav">
                     <li>
-                        <a id="hme" href="index.html" style="margin-right:46px;color:#ffffff;">HOME</a>
+                        <a id="hme" href="index.html" class="link-nav-color">HOME</a>
                     </li>
-                    <li>
-                        <a id="serv" href="whyus.html" style="margin-right:46px;color:#ffffff;">WHY US</a>
+                    <li class="mg-lt-links">
+                        <a id="serv" href="whyus.html" class="link-nav-color">WHY US</a>
                     </li>
-                    <li>
-                        <a id="abtus" href="careers.html" style="margin-right:46px;color:#ffffff;">CAREERS</a>
+                    <li class="mg-lt-links">
+                        <a id="abtus" href="careers.html" class="link-nav-color">CAREERS</a>
                     </li>
-                    <li>
-                        <a id="cntus" href="index.html#contact-us" style="margin-right:46px;color:#ffffff;">CONTACT US</a>
+                    <li class="mg-lt-links">
+                        <a id="cntus" href="index.html#contact-us" class="link-nav-color">CONTACT US</a>
                     </li>
                 </ul>
             </div>
@@ -165,8 +44,8 @@
     </nav>
 
     <div class="container-fluid">
-        <p class="indy-head"><b>Your Industry</b></p>
-        <p class="uimg"><img src="UnderlineDesign.jpg" /></p>
+        <p class="indy-head-yourIndy"><b>Your Industry</b></p>
+        <p class="uimg-yourIndy"><img src="UnderlineDesign.jpg" /></p>
         <p class="market-head">Marketing BPO</p>
 
         <p class="market-text">We are leading the development of a new generation of business process outsourcing (BPO), delivering our clients tangible 

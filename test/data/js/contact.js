@@ -48,8 +48,11 @@ function contactForm() {
 }
 $(document).ready(function(){
     $("#submit").click(function(){
-        $("#overlay, #popup").fadeIn();
-        return contactForm();
+        var formStatus = validator.form();
+        if (formStatus == true) {
+        	$("#overlay, #popup").fadeIn();
+        	return contactForm();
+	}
     });
     $(document).ajaxComplete(function(event, request, settings) {
         $('#popup,#overlay').fadeOut(6000);

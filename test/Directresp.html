@@ -9,155 +9,34 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <style>
-        .navbar {
-            font-family: 'Open Sans';
-            background-color: #3F9A93;
-            font-size: 18px;
-            height: 55px;
-            line-height: 50px;
-            color: #ffffff;
-        }
+    <link rel="stylesheet" type="text/css" href="data/css/leeway.css" />
 
-        .navbar-fixed-top {
-            top: 0px;
-            border-top-width: 0px;
-            border-right-width: 0px;
-            border-bottom-width: 1px;
-            color: #ffffff;
-        }
-
-        .navbar-hearder {
-            margin-left: 55px;
-        }
-
-
-        #top_list {
-            color: #ffffff;
-            margin-right: 10px;
-        }
-
-        .service-head {
-            text-align: center;
-            color: #3F9A93;
-            font-family: 'Open Sans';
-            font-size: 43px;
-            font-weight: 700;
-            line-height: 10px;
-            margin-top: 7%;
-        }
-
-        .uimg {
-            text-align: center;
-            margin-top: 22px;
-            margin-bottom: 35px;
-        }
-
-        .dir-head {
-            font-family: 'Open Sans';
-            font-size: 25px;
-            margin-left: 18%;
-            font-weight: 600;
-        }
-
-        .dir-text {
-            font-family: 'Open Sans';
-            font-size: 18px;
-            margin-left: 16%;
-            margin-right: 16%;
-            text-align: justify;
-        }
-
-        .dir-points {
-            font-family: 'Open Sans';
-            font-size: 18px;
-            margin-left: 17%;
-            margin-right: 17%;
-            text-align: justify;
-            list-style-type: decimal;
-        }
-
-    footer{
-     background-color:#000000;
-     width:100%;
-     position:static;
-     bottom:0;
-     left:0;
- }
-
-  .mg-lt-rt{
-      margin-left:4%;
-      margin-right:3%;
-      margin-top:1%;
-  }
-
-  .service-list{
-      list-style-type:none;
-      width:100%;
-      text-align:left;
-  }
-
-  .main-links{
-      line-height:15px;
-      vertical-align:top;
-      display:inline-block;
-      text-align:left;
-      width:18%;
-      margin-bottom:24px;
-      font-size:16px;
-      margin-top:10px;
-  }
-
-  .link-container{
-      font-size:12px;
-      font-family:'Open Sans';
-      font-weight:bolder;
-      display:block;
-      color:#a2a9ad;
-      line-height:30px;
-      list-style-type:none;
-      text-decoration-style:none;
-  }
-
-  .sub-link-container{
-      font-size:11px;
-      font-family:'Open Sans';
-      font-weight:bold;
-      display:block;
-      color:#a2a9ad;
-      line-height:30px;
-      list-style-type:none;
-      text-decoration-style:none;
-      margin-left:5px;
-  }
-
-  .link-color{
-      color:#a2a9ad;
-  }
-
-
-    </style>
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div id="top_nav_div" class="container-fluid">
             <div class="navbar-hearder pull-left">
                 <a href="index.html"><img src="logo.png" height="48" width="230" /></a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-fields">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
 
-            <div class="pull-right" id="navigation-fields">
+            <div class="navbar-collapse collapse pull-right" id="navigation-fields">
                 <ul id="top_list" class="nav navbar-nav">
                     <li>
-                        <a id="hme" href="index.html" style="margin-right:46px;color:#ffffff;">HOME</a>
+                        <a id="hme" href="index.html" class="link-nav-color">HOME</a>
                     </li>
-                    <li>
-                        <a id="serv" href="whyus.html" style="margin-right:46px;color:#ffffff;">WHY US</a>
+                    <li class="mg-lt-links">
+                        <a id="serv" href="whyus.html" class="link-nav-color">WHY US</a>
                     </li>
-                    <li>
-                        <a id="abtus" href="careers.html" style="margin-right:46px;color:#ffffff;">CAREERS</a>
+                    <li class="mg-lt-links">
+                        <a id="abtus" href="careers.html" class="link-nav-color">CAREERS</a>
                     </li>
-                    <li>
-                        <a id="cntus" href="index.html#contact-us" style="margin-right:46px;color:#ffffff;">CONTACT US</a>
+                    <li class="mg-lt-links">
+                        <a id="cntus" href="index.html#contact-us" class="link-nav-color">CONTACT US</a>
                     </li>
                 </ul>
             </div>
@@ -166,7 +45,7 @@
 
     <div class="container-fluid">
         <p class="service-head"><b>Our Services</b></p>
-        <p class="uimg"><img src="UnderlineDesign.jpg" /></p>
+        <p class="uimg-sub"><img src="UnderlineDesign.jpg" /></p>
         <p class="dir-head">Direct Response</p>
         
         <p class="dir-text">Today's contact centers blend with an organization's Advertising and Promotions program by capturing the media response and converting 

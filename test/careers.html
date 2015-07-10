@@ -10,333 +10,44 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <style>
-
-          .navbar{
-    font-family : 'Open Sans';
-    background-color : #3F9A93;
-    font-size: 18px;
-    height:55px;
-    line-height:50px;
-    color:#ffffff;
-    }
-
-    .navbar-fixed-top{
-    top: 0px;
-    border-top-width:0px;
-    border-right-width:0px;
-    border-bottom-width:0px;
-    color:#ffffff;
-    }
-
-    .navbar-hearder{
-    margin-left:55px;
-    }
-
-    #top_list{
-   
-    margin-right:10px;
-    }
-
-    .careers-head{
-         text-align:center;
-           color:#3F9A93; 
-           font-family:'Open Sans';
-           font-size:43px;
-           font-weight:700;
-           line-height:10px;
-           margin-top:7%;
-    }
-
-     .uimg{
-           text-align:center;
-           margin-top:20px;
-       }
-
-    .careers-info{
-        text-align:center;
-           color:#000000; 
-           font-family:'Open Sans';
-           font-size:18px;
-           line-height:10px;
-           margin-top:2%;
-           margin-bottom:2%;
-           text-transform:uppercase;
-    }
-
-    .info-sizing{
-        margin-left:24%;
-    }
-
-    #uploadfile{
-        margin-left:35%;
-    }
-     
-     .btn-color{
-       background-color:#f2cf0b;
-   }
-
-     .btn-submit{
-         margin-left:40%;
-         font-size:20px;
-        font-family:'Open Sans';
-     }
-
-    .group{
-        position:relative;
-        margin-bottom:45px;
-        font-size:20px;
-        font-family:'Open Sans';
-    }
-
-    input{
-        font-size:20px;
-        font-family:'Open Sans';
-        padding: 10px 10px 10px 10px;
-        display:block;
-        width:600px;
-        border:none;
-        border-bottom: 1px solid #757575;
-    }
-
-    input:focus{
-        outline:none;
-    }
-
-    label{
-        color:#999999;
-        font-family:'Open Sans';
-        font-size:20px;
-        font-weight:normal;
-        position:absolute;
-        pointer-events:none;
-        left:5px;
-        top:10px;
-        transition: 0.3s ease all;
-        -moz-transition:0.3s ease all;
-        -webkit-transition:0.3s ease all;
-    }
-
-    input:focus ~ label, input:valid ~ label{
-        top:-20px;
-        font-size:14px;
-        color:#5264AE;
-    }
-
-    .bar{
-        position:relative;
-        display:block;
-        width:600px;
-    }
-
-    .bar:before, .bar:after{
-        content:'';
-        height:2px;
-        width:0;
-        bottom:1px;
-        position:absolute;
-        background:#5264AE;
-        transition:0.3s ease all;
-        -moz-transition: 0.3s ease all;
-        -webkit-transition:0.3s ease all;
-    }
-
-    .bar:before{
-        left:50%;
-    }
-
-    .bar:after{
-        right:50%;
-    }
-
-    input:focus ~ .bar:before, input:focus ~ .bar:after{
-        width:50%;
-    }
-
-    .highlight{
-        position:absolute;
-        height:60%;
-        width:100px;
-        top:25%;
-        left:0;
-        pointer-events:none;
-        opacity:0.5;
-    }
-
-    input:focus ~ .highlight{
-        -webkit-animation:inputHighlighter 0.4s ease;
-        -moz-animation:inputHighlighter 0.4s ease;
-        animation:inputHighlighter 0.4s ease;
-    }
-
-    @-webkit-keyframes inputHighlighter {
-        from{
-              background:#5264AE;
-        }
-        to{
-            width:0;
-            background:transparent;
-        }
-    }
-
-    @-moz-keyframes inputHighlighter {
-        from{
-              background:#5264AE;
-        }
-        to{
-            width:0;
-            background:transparent;
-        }
-    }
-
-    @keyframes inputHighlighter{
-         from{
-              background:#5264AE;
-        }
-        to{
-            width:0;
-            background:transparent;
-        }
-    }
-        #overlay {
-            background-color: rgba(0, 0, 0, .7);
-            bottom: 0;
-            display: none;
-            left: 0;
-            position: fixed;
-            right: 0;
-            top: 0;
-            z-index: 10;
-        }
-        #popup {
-            background: #f5f5f5;
-            border-radius: 25px;
-            bottom: 37%;
-            display: none;
-            height: 133px;
-            left: 43%;
-            position: fixed;
-            right: 43%;
-            top: 37%;
-            width: 20%;
-            z-index: 100
-        }
-        #loading-indicator-rchus {
-            margin-left: 38%;
-            margin-right: 38%;
-            margin-top: 11px
-        }
-
-
-        .notice {
-            background-color: rgba(0, 0, 0, 0);
-            color: #a94442;
-            display: none;
-            margin-top: 15px;
-            padding: 10px 15px;
-            text-align: center;
-            transition: all .4s ease-in-out;
-            -webkit-transition: all .4s ease-in-out;
-            word-wrap: break-word
-        }
-
-        #sndg-msg-rchus {
-            text-align: center;
-        }
- footer{
-     background-color:#000000;
-     width:100%;
-     position:static;
-     bottom:0;
-     left:0;
- }
-
-   .footer-header{
-      margin-bottom:0px;
-  }
-
-  .mg-lt-rt{
-      margin-left:4%;
-      margin-right:3%;
-  }
-
-  .service-list{
-      list-style-type:none;
-      width:100%;
-      text-align:left;
-  }
-
-  .main-links{
-      line-height:15px;
-      vertical-align:top;
-      display:inline-block;
-      text-align:left;
-      width:18%;
-      margin-bottom:24px;
-      font-size:16px;
-      margin-top:10px;
-  }
-
-  .link-container{
-      font-size:12px;
-      font-family:'Open Sans';
-      font-weight:bolder;
-      display:block;
-      color:#a2a9ad;
-      line-height:30px;
-      list-style-type:none;
-      text-decoration-style:none;
-  }
-
-  .sub-link-container{
-      font-size:11px;
-      font-family:'Open Sans';
-      font-weight:bold;
-      display:block;
-      color:#a2a9ad;
-      line-height:30px;
-      list-style-type:none;
-      text-decoration-style:none;
-      margin-left:5px;
-  }
-
-  .link-color{
-      color:#a2a9ad;
-  }
-
-
-  </style>
+    <link rel="stylesheet" type="text/css" href="data/css/leeway.css" />
+    <link rel="stylesheet" type="text/css" href="data/css/Careers.css"/>
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div id="top_nav_div" class="container-fluid">
             <div class="navbar-hearder pull-left">
                 <a href="index.html"><img src="logo.png" height="48" width="230" /></a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-fields">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
 
-            <div class="pull-right" id="navigation-fields">
+            <div class="navbar-collapse collapse pull-right" id="navigation-fields">
                 <ul id="top_list" class="nav navbar-nav">
                     <li>
-                        <a id="hme" href="index.html" style="margin-right:46px;color:#ffffff;">HOME</a>
+                        <a id="hme" href="index.html" class="link-nav-color">HOME</a>
                     </li>
-                    <li>
-                        <a id="serv" href="whyus.html" style="margin-right:46px;color:#ffffff;">WHY US</a>
+                    <li class="mg-lt-links">
+                        <a id="serv" href="whyus.html" class="link-nav-color">WHY US</a>
                     </li>
-                    <li>
-                        <a id="abtus" href="careers.html" style="margin-right:46px;color:#ffffff;">CAREERS</a>
+                    <li class="mg-lt-links">
+                        <a id="abtus" href="#" class="link-nav-color">CAREERS</a>
                     </li>
-                    <li>
-                        <a id="cntus" href="index.html#contact-us" style="margin-right:46px;color:#ffffff;">CONTACT US</a>
+                    <li class="mg-lt-links">
+                        <a id="cntus" href="index.html#contact-us" class="link-nav-color">CONTACT US</a>
                     </li>
                 </ul>
             </div>
         </div>
-    </nav> 
-    
+    </nav>
+
     <!--Popover for message sending-->
     <div id="overlay">
         <div id="popup">
-            <h4 id="sndg-msg-rchus">Sending Message<br/></h4>
+            <h4 id="sndg-msg-rchus">Sending Message<br /></h4>
             <img src="data/img/ajax-loader.gif" id="loading-indicator-rchus" alt="ajax loader">
             <div id="reachus_message" class="notice" data-error="There was an error sending the message, please try again." data-success="Message successfully sent!"></div>
         </div>
@@ -344,70 +55,73 @@
     <!--careers form-->
     <div class="container-fluid">
         <p class="careers-head"><b>Careers</b></p>
-        <p class="uimg"><img src="UnderlineDesign.jpg" /></p>
+        <p class="uimg-careers"><img src="UnderlineDesign.jpg" /></p>
         <p class="careers-info">Fill in the following details & if your skill set matches our requirements, we shall be in touch.</p>
-        
-        <form method="post" id="careers-leeway">
-           
-            <div class="group info-sizing">
-                <input type="text" id="name" name="name" autofocus required/>
-                <span class="highlight"></span>
-                <span class="bar"></span>
-                <label>NAME</label>
-            </div>
 
-            <div class="group info-sizing">
-                <input type="text" id="mobileNo" name="mobileNo" required />
-                <span class="highlight"></span>
-                <span class="bar"></span>
-                <label>MOBILE NO.</label>
-            </div>
+        <div class="row">
+            <div class="col-sm-12 col-center-career">
+                <form method="post" id="careers-leeway">
 
-            <div class="group info-sizing">
-                <input type="text" id="address" name="address" required/>
-                <span class="highlight"></span>
-                <span class="bar"></span>
-                <label>ADDRESS</label>
-            </div>
+                    <div class="group">
+                        <input type="text" id="name" name="name" autofocus required />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>NAME</label>
+                    </div>
 
-            <div class="group info-sizing">
-                <input type="text" id="city" name="city" required />
-                <span class="highlight"></span>
-                <span class="bar"></span>
-                <label>CITY</label>
-            </div>
+                    <div class="group">
+                        <input type="text" id="mobileNo" name="mobileNo" required />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>MOBILE NO.</label>
+                    </div>
 
-            <div class="group info-sizing">
-                <input type="text" id="email" name="email" required />
-                <span class="highlight"></span>
-                <span class="bar"></span>
-                <label>EMAIL ID</label>
-            </div>
-            
-            <div class="group info-sizing">
-                <input type="text" id="experience" name="experience" required />
-                <span class="highlight"></span>
-                <span class="bar"></span>
-                <label>EXPERIENCE</label>
-            </div>
-            
-            <div class="group info-sizing">
-                <input type="text" id="salary" name="salary" required />
-                <span class="highlight"></span>
-                <span class="bar"></span>
-                <label>EXPECTED SALARY</label>
-            </div>
+                    <div class="group">
+                        <input type="text" id="address" name="address" required />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>ADDRESS</label>
+                    </div>
 
-            <div class="form-group col-lg-8">
-                <label style="margin-left:36%;">UPLOAD RESUME</label><br /><br />
-                <input type="file" id="uploadfile" placeholder="UPLOAD RESUME" name="uploadResume" onchange="handleFileSelect(this)"/>
-            </div>
+                    <div class="group">
+                        <input type="text" id="city" name="city" required />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>CITY</label>
+                    </div>
 
-            <div class="form-group col-lg-8 btn-submit">
-                <button type="submit" class="btn btn-color" style="text-align:center" id="submit" onclick="return false;">SUBMIT</button>
-            </div>
-        </form>
+                    <div class="group">
+                        <input type="text" id="email" name="email" required />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>EMAIL ID</label>
+                    </div>
 
+                    <div class="group">
+                        <input type="text" id="experience" name="experience" required />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>EXPERIENCE</label>
+                    </div>
+
+                    <div class="group">
+                        <input type="text" id="salary" name="salary" required />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>EXPECTED SALARY</label>
+                    </div>
+
+                    <div class="form-group col-lg-8">
+                        <label>UPLOAD RESUME</label><br /><br />
+                        <input type="file" id="uploadfile" placeholder="UPLOAD RESUME" name="uploadResume" onchange="handleFileSelect(this)" />
+                    </div>
+
+                    <div class="form-group col-lg-8 btn-submit">
+                        <button type="submit" class="btn btn-color" style="text-align:center" id="submit" onclick="return false;">SUBMIT</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 
     <footer>
@@ -458,9 +172,19 @@
         </div>
     </footer>
 
-</body>
+    <!--validation plugin-->
+    <script src="http://cdn.jsdelivr.net/jquery.validation/1.13.1/jquery.validate.min.js" type="text/javascript"></script>
+
+    <!--tooltip plugin-->
+    <script src="/data/js/jquery.tooltipster.min.js" async="async" defer="defer"></script>
+    <link rel="stylesheet" href="/data/css/tooltipster.css" type="text/css">
+    <link rel="stylesheet" href="/data/css/tooltipster-punk.css" type="text/css">
+
+
+    <!--form validtor-->
+    <script type="text/javascript" src="/data/js/formValidatorCareers.js" async="async" defer="defer"></script>
+
     <!--Email sending js-->
     <script src="data/js/contact.js" type="text/javascript" async="async" defer="defer"></script>
-    <!--file type conversion to base 64-->
-    <script src="data/js/fileConv.js" type="text/javascript" async="async" defer="defer"></script>
+</body>
 </html>
