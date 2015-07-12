@@ -9,19 +9,19 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="data/css/leeway.css"/>
-    <link rel="stylesheet" type="text/css" href="data/css/Contact-US.css"/>
+    <link rel="stylesheet" type="text/css" href="data/css/leeway.min.css"/>
+    <link rel="stylesheet" type="text/css" href="data/css/Contact-US.min.css"/>
     <!--Styles-->
     <style>
 
         .social-links{
             width:auto;
-            top:12%;
+            top:77px;
             padding:0 0 0 2%;   
             position:absolute;  
             justify-content:flex-end;
             right:0; 
-            margin-right:10%;                
+            margin-right:8%;                
         }
 
        .leeway-banner{
@@ -131,10 +131,7 @@
            text-align:justify;
       
        }
-
-
-   
-         
+        
  </style>
     
 </head>
@@ -145,12 +142,12 @@
         <div id="top_nav_div" class="container-fluid">
             <div class="navbar-hearder pull-left">
                 <a href="index.html"><img src="logo.png" height="48" width="230" /></a>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-fields">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
             </div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation-fields" style="top:2px;">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
 
             <div class="navbar-collapse collapse pull-right" id="navigation-fields">
                 <ul id="top_list" class="nav navbar-nav">
@@ -173,15 +170,15 @@
 
     <!--Home Page-->
     <a id="home"></a>
-    <div class="container-fluid" id="home-page">
+    <div class="container-fluid height-adjusting" id="home-page">
 
-        <div class="social-links">
+        <div class="social-links" id="links-social">
             <a href=" https://www.facebook.com/LeewayEServBPO"> <img src="fb.png" /> </a>
             <a href="https://twitter.com/LeewayEServBPO"><img src="twitter.png" /></a>
             <a href="http://www.linkedin.com/in/leewayeserv"><img src="linkedin.png" /></a>
         </div>
 
-        <div class="leeway-banner">
+        <div class="leeway-banner" id="banner-leeway">
 
             <span class="logo-name">LEEWAY ESERV</span>
             <br />
@@ -189,21 +186,21 @@
 
         </div>
 
-        <div class="row top-links top-margin">
+        <div class="row top-links" id="top-margin">
 
             <div class="col-sm-3" style="margin-left:12%">
-                <h4 class="links"><b><a href="#ourservice" class="color-btm-links">Our Services</a></b></h4>
+                <h4 class="links" id="link-services"><b><a href="#ourservice" class="color-btm-links">Our Services</a></b></h4>
 
             </div>
 
-            <div class="col-sm-1 divider-div2-home" id="divider-div-1"></div>
+            <div class="col-sm-1 divider-div2-home" id="divider-div-home"></div>
 
             <div class="col-sm-3">
                 <h4 class="links"><b><a href="YourIndustry.html" class="color-btm-links">Your Industry</a></b></h4>
 
             </div>
 
-            <div class="col-sm-1 divider-div2-home" id="divider-div-1"></div>
+            <div class="col-sm-1 divider-div2-home" id="divider-div-home"></div>
 
             <div class="col-sm-3">
                 <h4 class="links"><b><a href="NewsUpdates.html" class="color-btm-links">News & Updates</a></b></h4>
@@ -214,7 +211,7 @@
 
     <!--Our Services-->
     <a id="ourservice" style="position:relative;top:-51px;display:block;visibility:hidden;"></a>
-    <div class="container-fluid row srevices" style="max-height:680px;">
+    <div class="container-fluid row srevices" id="our-services">
         <div class="col-sm-6">
             <h2 class="heading" id="services"><b>OUR SERVICES</b></h2>
             <p class="uimg-index"><img src="underlinedesign-without bg.png" height="18" width="300" /></p>
@@ -318,7 +315,7 @@
         <!--contact us form-->
         <div class="row" style="background-color:#000000;">
             <div class="col-sm-12 col-center-contactus">
-                <form class="contactus-text" id="contact-us-leeway" method="post">
+                <form class="contactus-text" id="contact-us-leeway" method="post" style="width:45%;">
                     <div class="group">
                         <input type="text" required id="name" name="name" />
                         <span class="highlight"></span>
@@ -408,12 +405,12 @@
 
 
     <!--form validtor-->
-    <script type="text/javascript" src="/data/js/formValidate.js" async="async" defer="defer"></script>
+    <script type="text/javascript" src="/data/js/formValidate.min.js" async="async" defer="defer"></script>
 
     <!--Email sending js-->
-    <script src="data/js/contact.js" type="text/javascript" async="async" defer="defer"></script>
+    <script src="data/js/contact.min.js" type="text/javascript" async="async" defer="defer"></script>
 
     <!--height related issues-->
-    <script type="text/javascript" src="/data/js/height.js" async="async" defer="defer"></script>
+    <script type="text/javascript" src="/data/js/height.min.js" async="async" defer="defer"></script>
 </body>
 </html>

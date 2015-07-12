@@ -47,7 +47,7 @@
 /*Footer*/
  footer{
      background-color:#000000;
-     width:100%;
+     width:auto;
      position:static;
      bottom:0;
      left:0;
@@ -145,7 +145,7 @@
 
    .contactus-text{  
        text-align:center;
-       margin-top:3%;
+       margin-top:42px;
        margin-bottom:10px;
    }
 
@@ -166,7 +166,7 @@
            font-size:43px;
            font-weight:700;
            line-height:10px;
-           margin-top:7%;
+           margin-top:70px;
     }
 
     .uimg-sub{
@@ -361,7 +361,7 @@
            font-size:43px;
            font-weight:700;
            line-height:10px;
-           margin-top:7%;
+           margin-top:85px;
     }
 
      .uimg-careers{
@@ -374,7 +374,7 @@
            color:#000000; 
            font-family:'Open Sans';
            font-size:18px;
-           line-height:10px;
+           line-height:30px;
            margin-top:2%;
            margin-bottom:2%;
            text-transform:uppercase;
@@ -389,7 +389,7 @@
            font-size:43px;
            font-weight:700;
            line-height:29px;
-           margin-top:7%;
+           margin-top:85px;
     }
 
     .uimg-news{
@@ -418,7 +418,7 @@
            font-size:43px;
            font-weight:700;
            line-height:10px;
-           margin-top:7%;
+           margin-top:85px;
     }
 
     .uimg-whyus{
@@ -455,7 +455,7 @@
       
 
       .divider-div-whyus{
-    height:355px;
+    height:384px;
     width: 0.33%;
     padding: 0px;
     padding-top: 0px;
@@ -522,7 +522,7 @@
            font-size:43px;
            font-weight:700;
            line-height:10px;
-           margin-top:7%;
+           margin-top:85px;
     }
 
     .uimg-yourIndy{
@@ -610,28 +610,28 @@
 
 
 /*Your Industry- Health Administration BPO*/
-.insur-head{
-         font-family:'Open Sans';
+.health-head{
+             font-family:'Open Sans';
            font-size:25px;
            margin-left:12%;
            font-weight:600;
-    }
+         }
 
-    .insur-text{
-         font-family:'Open Sans';
+         .health-text{
+             font-family:'Open Sans';
            font-size:18px;
            margin-left:11%;
            margin-right:11%;
            text-align:justify;
-    }
+         }
 
-    .insur-subtext{
-         font-family:'Open Sans';
+         .health-subtext{
+             font-family:'Open Sans';
            font-size:18px;
            margin-left:13%;
            margin-right:13%;
            text-align:justify;
-    }
+         }
 
 
 /*Your Industry- Pharmacenticals*/
@@ -863,4 +863,50 @@
         text-align:justify;
         }
 
+/*For mobile*/
+@media (max-width: 480px)
+{
+    #navigation-fields{
+        border:0px;
+        padding-left:86%;
+        background-color:#3F9A93;
+    }
+
+    #links-social{
+        top:74px;
+        margin-right:1px;
+    }
+
+    #banner-leeway{
+        top:18%;
+    }
+
+    #top-margin{
+        height:36%;
+    }
+
+    #divider-div-home{
+        height:14%;
+    }
+
+    #link-services{
+        margin-top:12%;
+    }
+
+    .link-pts-whyus{
+        height:50px;
+    }
+
+    #divider-div-whyus{
+        height:20px;
+    }
+
+    .link-yourIndy{
+        height:50px;
+    }
+
+    .main-links{
+        width:49%;
+    }
+}
 

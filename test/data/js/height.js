@@ -1,4 +1,4 @@
-var homeDiv = $('#home-page'),
+var homeDiv = $('.height-adjusting'),
 	winheight=$(window).height();
 	function setVars(){
 		homeDiv.css("height",winheight);
