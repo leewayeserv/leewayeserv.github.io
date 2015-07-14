@@ -1,7 +1,8 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>LEEWAY ESERV-Your Industry</title>
+    <title>LEEWAY ESERV-Careers</title>
+     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -10,13 +11,13 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" type="text/css" href="data/css/leeway.min.css" />
-
+    <link rel="stylesheet" type="text/css" href="data/css/Careers.min.css"/>
 </head>
-<body class="bg-color-yourIndy">
+<body>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div id="top_nav_div" class="container-fluid">
             <div class="navbar-hearder pull-left">
-                <a href="index.html"><img src="logo.png" height="48" width="230" /></a>
+                <a href="index.html"><img src="logo.png" height="60" width="240" /></a>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-fields">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -33,7 +34,7 @@
                         <a id="serv" href="whyus.html" class="link-nav-color">WHY US</a>
                     </li>
                     <li class="mg-lt-links">
-                        <a id="abtus" href="careers.html" class="link-nav-color">CAREERS</a>
+                        <a id="abtus" href="#" class="link-nav-color">CAREERS</a>
                     </li>
                     <li class="mg-lt-links">
                         <a id="cntus" href="index.html#contact-us" class="link-nav-color">CONTACT US</a>
@@ -43,125 +44,85 @@
         </div>
     </nav>
 
+    <!--Popover for message sending-->
+    <div id="overlay">
+        <div id="popup">
+            <h4 id="sndg-msg-rchus">Sending Message<br /></h4>
+            <img src="data/img/ajax-loader.gif" id="loading-indicator-rchus" alt="ajax loader">
+            <div id="reachus_message" class="notice" data-error="There was an error sending the message, please try again." data-success="Message successfully sent!"></div>
+        </div>
+    </div>
+    <!--careers form-->
     <div class="container-fluid">
-        
+        <p class="careers-head"><b>Careers</b></p>
+        <p class="uimg-careers"><img src="UnderlineDesign.jpg" /></p>
+        <p class="careers-info">Fill in the following details & if your skill set matches our requirements, we shall be in touch.</p>
+
         <div class="row">
-            <p class="indy-head-yourIndy"><b>Your Industry</b></p>
-            <p class="uimg-yourIndy"><img src="underlinedesign-without bg.png" height="18" width="300"/></p>
+            <div class="col-sm-12 col-center-career">
+                <form method="post" id="careers-leeway">
 
-            <div class="col-md-12 mg-bottom-indy indy-points-yourIndy">
-
-                <a href="Banking.html">
-                    <div class="col-md-4 col-sm-4 link-yourIndy hover-yourIndy">
-
-                        <p class="indy-points-yourIndy" style="margin-top:4%">
-                            Banking and
-                            <br />
-                            Financial Services
-                        </p>
+                    <div class="group">
+                        <input type="text" id="name" name="name" autofocus required />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>NAME</label>
                     </div>
-                </a>
 
-                <a href="Insurrance.html">
-                    <div class="col-md-4 col-sm-4 link-yourIndy hover-yourIndy">
-                        <p class="indy-points-yourIndy" style="margin-top:7%">
-                            Insurance BPO
-                        </p>
+                    <div class="group">
+                        <input type="text" id="mobileNo" name="mobileNo" required />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>MOBILE NO.</label>
                     </div>
-                </a>
 
-                <a href="Health.html">
-                    <div class="col-md-4 col-sm-4 link-yourIndy hover-yourIndy">
-                        <p class="indy-points-yourIndy" style="margin-top:4%">
-                            Health Administration
-                            <br />
-                            BPO
-                        </p>
+                    <div class="group">
+                        <input type="text" id="address" name="address" required />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>ADDRESS</label>
                     </div>
-                </a>
 
-
-                <a href="Pharmaceuticals.html">
-                    <div class="col-md-4 col-sm-4 link-yourIndy hover-yourIndy">
-                        <p class="indy-points-yourIndy" style="margin-top:8%">
-                            Pharmaceuticals
-                        </p>
+                    <div class="group">
+                        <input type="text" id="city" name="city" required />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>CITY</label>
                     </div>
-                </a>
 
-                <a href="Manu.html">
-                    <div class="col-md-4 col-sm-4 link-yourIndy hover-yourIndy">
-                        <p class="indy-points-yourIndy" style="margin-top:6%">
-                            Manufacturing
-                            <br />
-                            and Retail
-                        </p>
+                    <div class="group">
+                        <input type="text" id="email" name="email" required />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>EMAIL ID</label>
                     </div>
-                </a>
 
-                <a href="Media.html">
-                    <div class="col-md-4 col-sm-4 link-yourIndy hover-yourIndy">
-                        <p class="indy-points-yourIndy" style="margin-top:6%">
-                            Media, Entertainment
-                            <br />
-                            and Communication
-                        </p>
+                    <div class="group">
+                        <input type="text" id="experience" name="experience" required />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>EXPERIENCE</label>
                     </div>
-                </a>
 
-                <a href="Utilities.html">
-                    <div class="col-md-4 col-sm-4 link-yourIndy hover-yourIndy">
-                        <p class="indy-points-yourIndy" style="margin-top:8%">
-                            Utilities BPO
-                        </p>
+                    <div class="group">
+                        <input type="text" id="salary" name="salary" required />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>EXPECTED SALARY</label>
                     </div>
-                </a>
 
-
-                <a href="Network.html">
-                    <div class="col-md-4 col-sm-4 link-yourIndy hover-yourIndy">
-                        <p class="indy-points-yourIndy" style="margin-top:8%">
-                            Networking BPO
-                        </p>
+                    <div class="form-group col-lg-8">
+                        <label>UPLOAD RESUME</label><br /><br />
+                        <input type="file" id="uploadfile" placeholder="UPLOAD RESUME" name="uploadResume" onchange="handleFileSelect(this)" />
                     </div>
-                </a>
 
-
-                <a href="Market.html">
-                    <div class="col-md-4 col-sm-4 link-yourIndy hover-yourIndy">
-                        <p class="indy-points-yourIndy" style="margin-top:8%">
-                            Marketing BPO
-                        </p>
+                    <div class="form-group col-lg-8 btn-submit">
+                        <button type="submit" class="btn btn-color" style="text-align:center" id="submit" onclick="return false;">SUBMIT</button>
                     </div>
-                </a>
-
-
-                <a href="Ship.html">
-                    <div class="col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 link-yourIndy hover-yourIndy">
-                        <p class="indy-points-yourIndy" style="margin-top:6%">
-                            Shipping &
-                            <br />
-                            Logistic
-                        </p>
-                    </div>
-                </a>
-
-
-                <a href="Travel.html">
-                    <div class="col-md-4 col-sm-4 link-yourIndy hover-yourIndy">
-                        <p class="indy-points-yourIndy" style="margin-top:6%">
-                            Travel, Logistics
-                            <br />
-                            and Hospitality
-                        </p>
-                    </div>
-                </a>
-
+                </form>
             </div>
-
-        </div>    
-           
-    </div> 
+        </div>
+    </div>
 
     <footer>
         <div class="footer-header"></div>
@@ -170,7 +131,7 @@
                 <div class="main-links">
                     <span class="link-container"><a class="link-color" href="index.html">HOME</a></span>
                     <span class="link-container"><a class="link-color" href="whyus.html">WHY US</a></span>
-                    <span class="link-container"><a class="link-color" href="careers.html">CAREERS</a></span>
+                    <span class="link-container"><a class="link-color" href="#">CAREERS</a></span>
                     <span class="link-container"><a class="link-color" href="index.html#contact-us">CONTACT US</a></span>
                     <span class="link-container"><a class="link-color" href="NewsUpdates.html">NEWS & UPDATES</a></span>
                 </div>
@@ -185,7 +146,7 @@
                 </div>
 
                 <div class="main-links">
-                    <span class="link-container"><a class="link-color" href="#">YOUR INDUSTRY</a></span>
+                    <span class="link-container"><a class="link-color" href="YourIndustry.html">YOUR INDUSTRY</a></span>
                     <span class="sub-link-container"><a class="link-color" href="Banking.html">BANKING & FINANCIAL SERVICES</a></span>
                     <span class="sub-link-container"><a class="link-color" href="Insurrance.html">INSURANCE BPO</a></span>
                     <span class="sub-link-container"><a class="link-color" href="Health.html">HEALTH ADMINISTRATION BPO</a></span>
@@ -211,5 +172,19 @@
         </div>
     </footer>
 
+    <!--validation plugin-->
+    <script src="http://cdn.jsdelivr.net/jquery.validation/1.13.1/jquery.validate.min.js" type="text/javascript"></script>
+
+    <!--tooltip plugin-->
+    <script src="data/js/jquery.tooltipster.min.js" async="async" defer="defer"></script>
+    <link rel="stylesheet" href="data/css/tooltipster.css" type="text/css">
+    <link rel="stylesheet" href="data/css/tooltipster-punk.css" type="text/css">
+
+
+    <!--form validtor-->
+    <script type="text/javascript" src="data/js/formValidatorCareers.min.js" async="async" defer="defer"></script>
+
+    <!--Email sending js-->
+    <script src="data/js/contact.min.js" type="text/javascript" async="async" defer="defer"></script>
 </body>
 </html>
