@@ -79,12 +79,11 @@
       text-align:left;
       width:18%;
       margin-bottom:24px;
-      font-size:2.1em;
       margin-top:10px;
   }
 
   .link-container{
-      font-size:1.5em;
+      font-size:0.5em;
       font-family:'Open Sans';
       font-weight:bolder;
       display:block;
@@ -95,7 +94,7 @@
   }
 
   .sub-link-container{
-      font-size:1.4em;
+      font-size:0.4em;
       font-family:'Open Sans';
       font-weight:bold;
       display:block;
