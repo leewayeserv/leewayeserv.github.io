@@ -2,7 +2,7 @@
 .navbar{
             font-family : 'Open Sans';
             background-color : #3F9A93;
-            font-size: 18px;
+            font-size: 1.3em;
             height:55px;
             line-height:50px;
             color:#ffffff;
@@ -79,12 +79,12 @@
       text-align:left;
       width:18%;
       margin-bottom:24px;
-      font-size:16px;
+      font-size:0.5em;
       margin-top:10px;
   }
 
   .link-container{
-      font-size:12px;
+      font-size:0.5em;
       font-family:'Open Sans';
       font-weight:bolder;
       display:block;
@@ -95,7 +95,7 @@
   }
 
   .sub-link-container{
-      font-size:11px;
+      font-size:0.4em;
       font-family:'Open Sans';
       font-weight:bold;
       display:block;
@@ -150,7 +150,7 @@
    }
 
    .contactus-info{
-       font-size:20px;
+       font-size:1.5em;
        font-family:'Open Sans';
        text-align:center;
        margin-bottom:3%;
@@ -163,7 +163,7 @@
          text-align:center;
            color:#3F9A93; 
            font-family:'Open Sans';
-           font-size:43px;
+           font-size:3.4em;
            font-weight:700;
            line-height:10px;
            margin-top:70px;
@@ -178,29 +178,29 @@
 /*Our services sub pages- Customer-care*/
  .cust-head{
         font-family:'Open Sans';
-           font-size:25px;
-           margin-left:18%;
+           font-size:1.8em;
+           margin-left:13%;
            font-weight:600;
     }
     .cust-text{
         font-family:'Open Sans';
-           font-size:18px;
-           margin-left:16%;
-           margin-right:16%;
+           font-size:1.3em;
+           margin-left:12%;
+           margin-right:12%;
            text-align:justify;
     }
     .cust-subtext{
         font-family:'Open Sans';
            font-size:18px;
-           margin-left:18%;
-           margin-right:18%;
+           margin-left:14%;
+           margin-right:12%;
            text-align:justify;
     }
     .cust-points{
         font-family:'Open Sans';
            font-size:18px;
-           margin-left:19%;
-           margin-right:19%;
+           margin-left:15%;
+           margin-right:12%;
            text-align:justify;
            list-style-type:decimal;
     }
@@ -208,24 +208,24 @@
 /*Our services sub pages- Direct-reponse*/
 .dir-head {
             font-family: 'Open Sans';
-            font-size: 25px;
-            margin-left: 18%;
+            font-size: 1.8em;
+            margin-left: 13%;
             font-weight: 600;
         }
 
         .dir-text {
             font-family: 'Open Sans';
-            font-size: 18px;
-            margin-left: 16%;
-            margin-right: 16%;
+            font-size: 1.3em;
+            margin-left: 12%;
+            margin-right: 12%;
             text-align: justify;
         }
 
         .dir-points {
             font-family: 'Open Sans';
-            font-size: 18px;
-            margin-left: 17%;
-            margin-right: 17%;
+            font-size: 1.3em;
+            margin-left: 12%;
+            margin-right: 12%;
             text-align: justify;
             list-style-type: decimal;
         }
@@ -234,58 +234,50 @@
 /*Our services sub pages- Rural BPO*/
         .rural-head {
             font-family: 'Open Sans';
-            font-size: 25px;
-            margin-left: 18%;
+            font-size: 1.8em;
+            margin-left: 13%;
             font-weight: 600;
         }
 
         .rural-text {
             font-family: 'Open Sans';
-            font-size: 18px;
-            margin-left: 16%;
-            margin-right: 16%;
-            text-align: justify;
-        }
-
-        .cust-subtext {
-            font-family: 'Open Sans';
-            font-size: 18px;
-            margin-left: 18%;
-            margin-right: 18%;
+            font-size: 1.3em;
+            margin-left: 12%;
+            margin-right: 12%;
             text-align: justify;
         }
 
         .rural-main-pts {
             font-family: 'Open Sans';
-            font-size: 18px;
-            margin-left: 18%;
-            margin-right: 18%;
+            font-size: 1.3em;
+            margin-left: 12%;
+            margin-right: 12%;
             text-align: justify;
             list-style-type:initial;
         }
 
         .rural-main-pts1{
             font-family: 'Open Sans';
-            font-size: 18px;
-            margin-left: 18%;
-            margin-right: 18%;
+            font-size: 1.3em;
+            margin-left: 12%;
+            margin-right: 12%;
             text-align: justify;
             list-style-type:decimal;
         }
 
         .rural-main-pts1-text{
             font-family: 'Open Sans';
-            font-size: 18px;
+            font-size: 1.3em;
             margin-left:3%;
-            margin-right:6%;
+            margin-right:0%;
             text-align: justify;
         }
 
         .rural-main-pts2{
              font-family: 'Open Sans';
-            font-size: 18px;
-            margin-left:4%;
-            margin-right:4%;
+            font-size: 1em;
+            margin-left:3%;
+            margin-right:0%;
             text-align: justify;
             list-style-type:initial;
         }
@@ -294,24 +286,24 @@
 /*Our services sub pages- Marketing*/
         .mark-head {
             font-family: 'Open Sans';
-            font-size: 25px;
-            margin-left: 18%;
+            font-size: 1.8em;
+            margin-left: 13%;
             font-weight: 600;
         }
 
         .mark-text {
             font-family: 'Open Sans';
-            font-size: 18px;
-            margin-left: 16%;
-            margin-right: 16%;
+            font-size: 1.3em;
+            margin-left: 12%;
+            margin-right: 13%;
             text-align: justify;
         }
 
         .mark-points {
             font-family: 'Open Sans';
-            font-size: 18px;
-            margin-left: 17%;
-            margin-right: 17%;
+            font-size: 1.3em;
+            margin-left: 12%;
+            margin-right: 12%;
             margin-bottom:26px;
             text-align: justify;
             list-style-type: decimal;
@@ -321,33 +313,33 @@
 /*Our services sub pages- Business*/
 .busi-head {
             font-family: 'Open Sans';
-            font-size: 25px;
-            margin-left: 18%;
+            font-size: 1.8em;
+            margin-left: 13%;
             font-weight: 600;
         }
 
         .busi-text {
             font-family: 'Open Sans';
-            font-size: 18px;
-            margin-left: 16%;
-            margin-right: 16%;
+            font-size: 1.3em;
+            margin-left: 12%;
+            margin-right: 12%;
             text-align: justify;
         }
 
         .busi-points {
             font-family: 'Open Sans';
-            font-size: 18px;
-            margin-left: 17%;
-            margin-right: 17%;
+            font-size: 1.3em;
+            margin-left: 12%;
+            margin-right: 12%;
             text-align: justify;
             list-style-type: decimal;
         }
 
         .busi-points1{
             font-family: 'Open Sans';
-            font-size: 18px;
-            margin-left: 17%;
-            margin-right: 17%;
+            font-size: 1.3em;
+            margin-left: 12%;
+            margin-right: 12%;
             text-align: justify;
             list-style-type: initial;
         }
@@ -358,7 +350,7 @@
          text-align:center;
            color:#3F9A93; 
            font-family:'Open Sans';
-           font-size:43px;
+           font-size:3.4em;
            font-weight:700;
            line-height:10px;
            margin-top:85px;
@@ -373,7 +365,7 @@
         text-align:center;
            color:#000000; 
            font-family:'Open Sans';
-           font-size:18px;
+           font-size:1.4em;
            line-height:30px;
            margin-top:2%;
            margin-bottom:2%;
@@ -386,7 +378,7 @@
         text-align:center;
            color:#3F9A93; 
            font-family:'Open Sans';
-           font-size:43px;
+           font-size:3.4em;
            font-weight:700;
            line-height:29px;
            margin-top:85px;
@@ -415,7 +407,7 @@
          text-align:center;
            color:#3F9A93; 
            font-family:'Open Sans';
-           font-size:43px;
+           font-size:3.4em;
            font-weight:700;
            line-height:10px;
            margin-top:85px;
@@ -430,25 +422,25 @@
     .whyus-text{
          
            font-family:'Open Sans';
-           font-size:18px;
+           font-size:1.3em;
            line-height:34px;
-           margin-left:14%;
-           margin-right:14%;
+           margin-left:12%;
+           margin-right:12%;
         text-align:justify;
     }
 
     .pts-whyus{
-        margin-left:15%;
+        margin-left:12%;
         list-style-type:initial;
     }
 
     .whyus-text2{
         
            font-family:'Open Sans';
-           font-size:22px;
+           font-size:1.8em;
            line-height:34px;
-           margin-left:14%;
-           margin-right:14%;
+           margin-left:12%;
+           margin-right:12%;
            text-align:justify;
     }
  
@@ -519,7 +511,7 @@
          text-align:center;
            color:#3F9A93; 
            font-family:'Open Sans';
-           font-size:43px;
+           font-size:3em;
            font-weight:700;
            line-height:10px;
            margin-top:85px;
@@ -534,7 +526,7 @@
     .indy-points-yourIndy{
            color:#f2f2f2;
            font-family:'Open Sans';
-           font-size:20px;
+           font-size:1.2em;
            margin-top:2%;
            text-align:center;
            margin-bottom:12px;
@@ -555,29 +547,30 @@
 /*Your Industry- Banking & Financial Services*/
  .bank-head{
            font-family:'Open Sans';
-           font-size:25px;
-           margin-left:12%;
+           font-size:1.8em;
+           margin-left:13%;
            font-weight:600;
     }
 
     .bank-text{
         font-family:'Open Sans';
-           font-size:18px;
-           margin-left:11%;
-           margin-right:11%;
+           font-size:1.3em;
+           margin-left:12%;
+           margin-right:12%;
            text-align:justify;
     }
+
     .bank-text2{
          font-family:'Open Sans';
-           font-size:18px;
+           font-size:1.3em;
            margin-left:3%;
-           margin-right:3%;
+           margin-right:0%;
            text-align:justify;
     }
 
     .bank-subhead{
          font-family:'Open Sans';
-           font-size:23px;
+           font-size:1.4em;
            margin-left:12%;
            font-weight:600;
            text-align:justify;
@@ -587,24 +580,24 @@
 /*Your Industry- Insurance*/
 .insur-head{
          font-family:'Open Sans';
-           font-size:25px;
-           margin-left:12%;
+           font-size:1.8em;
+           margin-left:13%;
            font-weight:600;
     }
 
     .insur-text{
          font-family:'Open Sans';
-           font-size:18px;
-           margin-left:11%;
-           margin-right:11%;
+           font-size:1.3em;
+           margin-left:12%;
+           margin-right:12%;
            text-align:justify;
     }
 
     .insur-subtext{
          font-family:'Open Sans';
-           font-size:18px;
-           margin-left:13%;
-           margin-right:13%;
+           font-size:1.3em;
+           margin-left:12%;
+           margin-right:12%;
            text-align:justify;
     }
 
@@ -612,24 +605,24 @@
 /*Your Industry- Health Administration BPO*/
 .health-head{
              font-family:'Open Sans';
-           font-size:25px;
-           margin-left:12%;
+           font-size:1.8em;
+           margin-left:13%;
            font-weight:600;
          }
 
          .health-text{
              font-family:'Open Sans';
-           font-size:18px;
-           margin-left:11%;
-           margin-right:11%;
+           font-size:1.3em;
+           margin-left:12%;
+           margin-right:12%;
            text-align:justify;
          }
 
          .health-subtext{
              font-family:'Open Sans';
-           font-size:18px;
-           margin-left:13%;
-           margin-right:13%;
+           font-size:1.3em;
+           margin-left:11%;
+           margin-right:11%;
            text-align:justify;
          }
 
@@ -637,16 +630,16 @@
 /*Your Industry- Pharmacenticals*/
 .phar-head{
          font-family:'Open Sans';
-           font-size:25px;
-           margin-left:16%;
+           font-size:1.8em;
+           margin-left:13%;
            font-weight:600;
     }
 
     .phar-text{
         font-family:'Open Sans';
-           font-size:18px;
-           margin-left:14%;
-           margin-right:14%;
+           font-size:1.3em;
+           margin-left:12%;
+           margin-right:12%;
            text-align:justify;
     }
 
@@ -654,32 +647,32 @@
 /*Your Industry- Manufacturing & Retail*/
 .manu-head{
          font-family:'Open Sans';
-           font-size:25px;
-           margin-left:12%;
+           font-size:1.8em;
+           margin-left:13%;
            font-weight:600;
     }
 
 
     .manu-text{
         font-family:'Open Sans';
-           font-size:18px;
-           margin-left:11%;
-           margin-right:11%;
+           font-size:1.3em;
+           margin-left:12%;
+           margin-right:12%;
            text-align:justify;
     }
 
     .manu-subtext{
         font-family:'Open Sans';
-           font-size:18px;
-           margin-left:13%;
-           margin-right:13%;
+           font-size:1.3em;
+           margin-left:12%;
+           margin-right:12%;
            text-align:justify;
     }
 
     .manu-subtext2{
         font-family:'Open Sans';
-           font-size:18px;
-           margin-left:2%;
+           font-size:1.3em;
+           margin-left:1%;
            margin-right:2%;
            text-align:justify;
     }
@@ -688,31 +681,31 @@
 /*Your Industry- Media, Entertainment & Communication*/
 .media-head{
         font-family:'Open Sans';
-           font-size:25px;
-           margin-left:12%;
+           font-size:1.8em;
+           margin-left:13%;
            font-weight:600;
     }
 
     .media-text{
          font-family:'Open Sans';
-           font-size:18px;
-           margin-left:11%;
-           margin-right:11%;
+           font-size:1.3em;
+           margin-left:12%;
+           margin-right:12%;
            text-align:justify;
     }
 
     .media-subtext{
         font-family:'Open Sans';
-           font-size:18px;
-           margin-left:13%;
-           margin-right:13%;
+           font-size:1.3em;
+           margin-left:12%;
+           margin-right:12%;
            text-align:justify;
     }
 
     .media-subtext2{
           font-family:'Open Sans';
-           font-size:18px;
-           margin-left:2%;
+           font-size:1.3em;
+           margin-left:1%;
            margin-right:2%;
            text-align:justify;
     }
@@ -728,17 +721,17 @@
 
     .utlility-text{
          font-family:'Open Sans';
-           font-size:18px;
-           margin-left:11%;
-           margin-right:11%;
+           font-size:1.3em;
+           margin-left:12%;
+           margin-right:12%;
            text-align:justify;
     }
 
     .utlility-subtext{
         font-family:'Open Sans';
-           font-size:18px;
-           margin-left:13%;
-           margin-right:13%;
+           font-size:1.3em;
+           margin-left:12%;
+           margin-right:12%;
            text-align:justify;
             line-height:30px;
     }
@@ -747,24 +740,24 @@
 /*Your Industry- Network BPO*/
 .net-head{
          font-family:'Open Sans';
-           font-size:25px;
-           margin-left:12%;
+           font-size:1.8em;
+           margin-left:13%;
            font-weight:600;
     }
 
     .net-text{
         font-family:'Open Sans';
-           font-size:18px;
-           margin-left:11%;
-           margin-right:11%;
+           font-size:1.3em;
+           margin-left:12%;
+           margin-right:12%;
            text-align:justify;
     }
     
     .net-subtext{
         font-family:'Open Sans';
-           font-size:18px;
-           margin-left:13%;
-           margin-right:13%;
+           font-size:1.3em;
+           margin-left:12%;
+           margin-right:12%;
            text-align:justify;
     }
 
@@ -772,24 +765,24 @@
 /*Your Industry- Marketing BPO*/
 .market-head {
             font-family: 'Open Sans';
-            font-size: 25px;
-            margin-left: 12%;
+            font-size: 1.8em;
+            margin-left: 13%;
             font-weight: 600;
         }
 
         .market-text {
             font-family: 'Open Sans';
-            font-size: 18px;
-            margin-left: 11%;
-            margin-right: 11%;
+            font-size: 1.3em;
+            margin-left: 12%;
+            margin-right: 12%;
             text-align:justify;
         }
 
         .market-subtext {
             font-family: 'Open Sans';
-            font-size: 18px;
-            margin-left: 13%;
-            margin-right: 13%;
+            font-size: 1.3em;
+            margin-left: 12%;
+            margin-right: 12%;
             text-align:justify;
         }
 
@@ -797,24 +790,24 @@
 /*Your Industry- Shipping & Logistics*/
 .ship-head {
             font-family: 'Open Sans';
-            font-size: 25px;
-            margin-left: 12%;
+            font-size: 1.8em;
+            margin-left: 13%;
             font-weight: 600;
         }
 
         .ship-text{
              font-family:'Open Sans';
-           font-size:18px;
-           margin-left:11%;
-           margin-right:11%;
+           font-size:1.3em;
+           margin-left:12%;
+           margin-right:12%;
         text-align:justify;
         }
 
         .ship-points-text{
             font-family:'Open Sans';
-           font-size:18px;
-           margin-left:13%;
-           margin-right:13%;
+           font-size:1.3em;
+           margin-left:12%;
+           margin-right:12%;
         text-align:justify;
         }
 
@@ -822,41 +815,43 @@
 /*Your Industry- Travel, Logistics & Hospitality*/
 .travel-head {
             font-family: 'Open Sans';
-            font-size: 25px;
-            margin-left: 12%;
+            font-size: 1.8em;
+            margin-left: 13%;
             font-weight: 600;
         }
 
         .travel-text{
             font-family:'Open Sans';
-           font-size:18px;
-           margin-left:11%;
-           margin-right:11%;
+           font-size:1.3em;
+           margin-left:12%;
+           margin-right:12%;
         text-align:justify;
         }
 
         .travel-pts{
             font-family:'Open Sans';
-           font-size:18px;
-           margin-left:13%;
-           margin-right:13%;
+           font-size:1.3em;
+           margin-left:12%;
+           margin-right:12%;
         text-align:justify;
         list-style-type:initial;
         }
 
         .travel-table-pts{
              font-family:'Open Sans';
-           font-size:18px;
+           font-size:1.3em;
            list-style-type:initial;
         }
 
         .travel-subtext{
             font-family:'Open Sans';
-           font-size:18px;
+           font-size:13em;
            margin-left:13%;
-           margin-right:11%;
+           margin-right:12%;
         text-align:justify;
         }
+
+
 
 /*For mobile-Vertical*/
 @media (max-width: 480px)
