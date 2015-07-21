@@ -714,7 +714,7 @@
 .utlility-head{
          font-family:'Open Sans';
            font-size:25px;
-           margin-left:12%;
+           margin-left:13%;
            font-weight:600;
     }
 
@@ -853,7 +853,7 @@
 
 
 /*For mobile-Vertical*/
-@media (max-width: 480px)
+@media (max-width: 480px) and (max-height: 700px)
 {
     #navigation-fields{
         border:0px;
@@ -862,16 +862,29 @@
     }
 
     #links-social{
-        top:74px;
+        top:11%;
         margin-right:1px;
     }
 
     #banner-leeway{
-        top:18%;
+        top:19%;
+    }
+
+    #name-logo{
+        font-size:4.5em;
+        letter-spacing:12px;
+    }
+
+    #text-logo{
+        font-size:1.4em;
     }
 
     #top-margin{
         height:36%;
+    }
+
+    #top-links-1{
+        margin-right:12%;
     }
 
     #divider-div-home{
@@ -947,6 +960,10 @@
     font-size: 1em;
     }
 
+    .cust-head{
+        margin-left:6%;
+    }
+
     .cust-text{
         margin-left:3%;
         margin-right:3%;
@@ -968,6 +985,10 @@
         font-size:1em;
     }
 
+    .dir-head{
+        margin-left:6%;
+    }
+
     .dir-text{
         margin-left:3%;
         margin-right:3%;
@@ -980,6 +1001,10 @@
         margin-right:3%;
         line-height:normal;
         font-size:1em;
+    }
+
+    .rural-head{
+        margin-left:6%;
     }
 
     .rural-text{
@@ -1028,6 +1053,10 @@
         font-size:1em;
     }
 
+    .busi-head{
+        margin-left:6%;
+    }
+
     .busi-text{
         margin-left:3%;
         margin-right:3%;
@@ -1049,6 +1078,10 @@
         font-size:1em;
     }
 
+    .bank-head{
+        margin-left:6%;
+    }
+
     .bank-text{
         margin-left:3%;
         margin-right:3%;
@@ -1065,9 +1098,13 @@
 
     .bank-text2{
         margin-left:3%;
-        margin-right:3%;
+        margin-right:0%;
         line-height:normal;
         font-size:1em;
+    }
+
+    .insur-head{
+        margin-left:6%;
     }
 
     .insur-text{
@@ -1084,6 +1121,10 @@
         font-size:1em;
     }
 
+    .health-head{
+        margin-left:6%;
+    }
+
     .health-text{
        margin-left:3%;
         margin-right:3%;
@@ -1098,11 +1139,19 @@
         font-size:1em;
     }
 
+    .phar-head{
+        margin-left:6%;
+    }
+
     .phar-text{
        margin-left:3%;
         margin-right:3%;
         line-height:normal;
         font-size:1em;
+    }
+
+    .manu-head{
+        margin-left:6%;
     }
 
     .manu-text{
@@ -1126,6 +1175,10 @@
         font-size:1em;
     }
 
+    .media-head{
+        margin-left:6%;
+    }
+
     .media-text{
         margin-left:3%;
         margin-right:3%;
@@ -1147,6 +1200,10 @@
         font-size:1em;
     }
 
+    .utlility-head{
+        margin-left:6%;
+    }
+
     .utlility-text{
         margin-left:3%;
         margin-right:3%;
@@ -1159,6 +1216,10 @@
         margin-right:3%;
         line-height:normal;
         font-size:1em;
+    }
+
+    .net-head{
+        margin-left:6%;
     }
 
     .net-text{
@@ -1189,6 +1250,10 @@
         font-size:1em;
     }
 
+    .ship-head{
+        margin-left:6%;
+    }
+
     .ship-text{
         margin-left:3%;
         margin-right:3%;
@@ -1201,6 +1266,10 @@
         margin-right:3%;
         line-height:normal;
         font-size:1em;
+    }
+
+    .travel-head{
+        margin-left:6%;
     }
 
     .travel-text{
