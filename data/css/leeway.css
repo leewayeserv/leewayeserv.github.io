@@ -862,6 +862,10 @@
         background-color:#3F9A93;
     }
 
+    .navbar-hearder{
+        margin-left:0%;
+    }
+
     #links-social{
         top:11%;
         margin-right:1px;
