@@ -87,7 +87,6 @@
       font-family:'Open Sans';
       font-weight:bold;
       display:block;
-      color:#a2a9ad;
       line-height:30px;
       list-style-type:none;
       text-decoration-style:none;
@@ -98,7 +97,6 @@
       font-family:'Open Sans';
       font-weight:bold;
       display:block;
-      color:#a2a9ad;
       line-height:30px;
       list-style-type:none;
       text-decoration-style:none;
@@ -106,7 +104,7 @@
   }
 
   .link-color{
-      color:#ffffff;
+      color:#aab0b4;
   }
 
 /*index page top social links*/
