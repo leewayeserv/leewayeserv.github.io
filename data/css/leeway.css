@@ -86,7 +86,7 @@
       font-size:1em;
       font-family:'Open Sans';
       font-weight:bold;
-      display:block;
+      display:flex;
       line-height:30px;
       list-style-type:none;
       text-decoration-style:none;
