@@ -875,17 +875,17 @@
     }
 
     #banner-leeway{
-        top:18%;
+        top:17%;
         padding:0 0 11px 0;
     }
 
     #name-logo{
-        font-size:4.5em;
-        letter-spacing:12px;
+        font-size:4em;
+        letter-spacing:10px;
     }
 
     #text-logo{
-        font-size:1.4em;
+        font-size:1.3em;
     }
 
     #top-margin{
