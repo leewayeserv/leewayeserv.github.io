@@ -421,15 +421,6 @@
         margin-bottom:35px;
     }
 
-    .whyus-text{
-         
-           font-family:'Open Sans';
-           font-size:1.3em;
-           line-height:34px;
-           margin-left:12%;
-           margin-right:12%;
-        text-align:justify;
-    }
 
     .pts-whyus{
         margin-left:12%;
@@ -503,6 +494,17 @@
 .bg-color-yourIndy{
         background-color:#4d4d4d;
     }
+
+
+     .indy-text{
+         font-family:'Open Sans';
+           font-size:1.3em;
+           line-height:34px;
+           margin-left:12%;
+           margin-right:12%;
+        text-align:justify;
+        color:#ffffff;
+     } 
 
    .hover-yourIndy:hover{
        background-color:#808080;
@@ -956,6 +958,10 @@
         font-size:1em;
     }
 
+    .indy-points-whyus:hover{
+        text-decoration:none;
+    }
+
     .about-sum-text1{
         margin-left: 18%;
     line-height: normal;
@@ -1307,5 +1313,3 @@
     }
 
 }
-
-
