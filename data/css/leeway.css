@@ -415,6 +415,15 @@
            margin-top:85px;
     }
 
+  .whyus-text{
+      font-family:'Open Sans';
+           font-size:1.3em;
+           line-height:34px;
+           margin-left:12%;
+           margin-right:12%;
+        text-align:justify;
+  }
+
     .uimg-whyus{
         text-align:center;
         margin-top:22px;
@@ -440,7 +449,7 @@
       
 
       .divider-div-whyus{
-    height:384px;
+    height:216px;
     width: 0.33%;
     padding: 0px;
     padding-top: 0px;
@@ -463,6 +472,7 @@
            font-size:15px;
            list-style-type:decimal;
            line-height:34px;
+           margin-left:30%;
        }
 
        .about-sum-text2{
