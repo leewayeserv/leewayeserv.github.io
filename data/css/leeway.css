@@ -446,8 +446,6 @@
            text-align:justify;
     }
  
-      
-
       .divider-div-whyus{
     height:216px;
     width: 0.33%;
@@ -507,13 +505,13 @@
 
 
      .indy-text{
-         font-family:'Open Sans';
+           font-family:'Open Sans';
            font-size:1.3em;
            line-height:34px;
            margin-left:12%;
            margin-right:12%;
-        text-align:justify;
-        color:#ffffff;
+          text-align:justify;
+          color:#ffffff;
      } 
 
    .hover-yourIndy:hover{
