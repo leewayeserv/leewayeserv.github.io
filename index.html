@@ -140,6 +140,22 @@
            text-align:left;
        }
         
+       .note{
+           font-size:1em;
+           font-family:'Open Sans';
+           color:#fff;
+           margin:2%;
+           text-align:center;
+       }
+
+       .note-link{
+           color:#dddddd;
+       }
+
+       .note-link:hover{
+           color:#cccccc;
+       }
+
  </style>
     
 </head>
@@ -320,6 +336,7 @@
         </div>
         <!--contact us form-->
         <div class="row" style="background-color:#000000;">
+            <p class="note">Please don't send resumes through this form. Visit the <a href="careers.html" class="note-link">Careers</a> section for instructions.</p>
             <div class="col-sm-12 col-center-contactus">
                 <form class="contactus-text" id="contact-us-leeway" method="post" style="width:45%;">
                     <div class="group">
@@ -335,6 +352,30 @@
                         <span class="bar"></span>
                         <label>EMAIL ID</label>
                     </div>
+
+                    <div class="group">
+                        <input type="text" required id="phoneNo" name="phone" />
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>PHONE NUMBER</label>
+                    </div>
+
+                    <span class="custom-dropdown big">
+                        <select name="industry">
+                            <option class="default">Your Industry</option>
+                            <option>Banking & Financial Services</option>
+                            <option>Insurrance BPO</option>
+                            <option>Health Administration BPO</option>
+                            <option>Pharmaceuticals</option>
+                            <option>Manufacturing & Retail</option>
+                            <option>Media, Entertainment & Communication</option>
+                            <option>Networking BPO</option>
+                            <option>Marketing BPO</option>
+                            <option>Shipping & Logistic</option>
+                            <option>Travel, Logistics & Hospitality</option>
+                            <option>Other Industries</option>
+                        </select>
+                    </span>
 
                     <div class="group">
                         <input type="text" required id="message" name="message" />
@@ -412,7 +453,7 @@
 
     <!--form validtor-->
     <script type="text/javascript" src="data/js/formValidate.min.js" async="async" defer="defer"></script>
-
+    
     <!--Email sending js-->
     <script src="data/js/contact.min.js" type="text/javascript" async="async" defer="defer"></script>
 
