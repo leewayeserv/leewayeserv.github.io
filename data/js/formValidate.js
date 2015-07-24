@@ -18,14 +18,26 @@ var validator = $("#contact-us-leeway").validate(
         {
             rules: 
             {   
-                name:{
+                name: {
+
                     required: true
-            },
-                email: 
+                 },
+
+                email:
                 {
                     required: true,
                     email: true
                 },
+
+                phone:{
+
+                    required: true
+                },
+
+                industry:{
+                    required: true,
+                },
+
                 message: 
                 {
                     required: true,
@@ -41,6 +53,15 @@ var validator = $("#contact-us-leeway").validate(
                 {
                     required: "Please enter your email address"
                 },
+
+                phone:{
+                    required: "Please  enter your number"
+                },
+
+                industry:{
+                    required: "Please enter your industry or else others"
+                },
+
                 message: 
                 {
                     required: "A message is required to be send",

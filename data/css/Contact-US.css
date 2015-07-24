@@ -177,13 +177,14 @@
 
   .big{
       font-size:1.2em;
+      font-family:'Open Sans';
   }
 
   .custom-dropdown{
       position:relative;
       display:inline-block;
       vertical-align:middle;
-      margin:10px;
+      margin:2px 0 14px 0;
       border: solid #757575;
   }
 
