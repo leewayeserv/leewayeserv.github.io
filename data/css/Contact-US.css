@@ -225,3 +225,38 @@
       bottom:0;
       border-radius:0 3px 3px 0;
   }
+
+  .col-width-form{
+      width:45%;
+  }
+
+    .note{
+           font-size:1em;
+           font-family:'Open Sans';
+           color:#fff;
+           margin:2%;
+           text-align:center;
+       }
+
+       .note-link{
+           color:#dddddd;
+       }
+
+       .note-link:hover{
+           color:#cccccc;
+       }
+
+
+  @media (max-width: 480px) and (max-height: 700px){
+      .big{
+          font-size:0.7px;
+      }
+
+      .col-center-contactus{
+          width:100%;
+      }
+
+      .col-width-form{
+          width:100%;
+      }
+  }
