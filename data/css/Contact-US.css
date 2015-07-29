@@ -184,7 +184,7 @@
       position:relative;
       display:inline-block;
       vertical-align:middle;
-      margin:2px 0 14px 0;
+      margin:2px 0 26px 0;
       border: solid #757575;
   }
 
@@ -249,7 +249,7 @@
 
   @media (max-width: 480px) and (max-height: 700px){
       .big{
-          font-size:0.7em;
+          font-size:1em;
       }
 
       .col-center-contactus{
