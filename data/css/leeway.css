@@ -371,7 +371,7 @@
            line-height:30px;
            margin-top:2%;
            margin-bottom:2%;
-           text-transform:uppercase;
+           text-transform:none;
     }
 
 
@@ -478,24 +478,6 @@
            font-family:'Open Sans';
            font-size:15px;
        }
-
-        .indy-points-whyus{
-      
-           font-family:'Open Sans';
-           font-size:20px;
-           margin-top:3%;
-           text-align:center;
-           margin-bottom:16px;
-           text-decoration:none;          
-    }
-        .hover-whyus:hover{
-            background-color:#cccccc;
-            border-bottom: 6px solid #808080;
-        }
-
-        .link-pts-whyus{
-        height:100px;
-    }
 
 
 /*Your Industry page*/
@@ -960,14 +942,6 @@
         margin-left: 3%;
     line-height: normal;
     font-size: 1em;
-    }
-
-    .indy-points-whyus{
-        font-size:1em;
-    }
-
-    .indy-points-whyus:hover{
-        text-decoration:none;
     }
 
     .about-sum-text1{
