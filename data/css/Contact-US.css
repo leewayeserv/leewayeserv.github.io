@@ -1,5 +1,39 @@
 ﻿/*Contact us message box*/
-  
+
+.heading-contact {
+    font-size:3em;
+    font-weight:700;
+    text-align:center;
+        font-family:'Open Sans';
+        color:#3F9A93;
+        margin-top:85px;
+}
+
+.uimg-index-contactus {
+ margin-bottom:8px;
+ margin-top:8px;
+ text-align:center;
+}
+
+      #contact-us{
+        width:100%;
+    }
+
+   .contactus-text{  
+       text-align:center;
+       margin-top:18px;
+       margin-bottom:7px;
+   }
+
+   .contactus-info{
+       font-size:1.2em;
+       font-family:'Open Sans';
+       text-align:center;
+       margin-bottom:1%;
+       margin-top:1%;
+   }  
+
+
    .col-center-contactus{
        display:flex;
        justify-content:center;
@@ -7,13 +41,13 @@
   
     .group{
         position:relative;
-        margin-bottom:45px;
-        font-size:20px;
+        margin-bottom:30px;
+        font-size:14px;
         font-family:'Open Sans';
     }
 
     input{
-        font-size:20px;
+        font-size:14px;
         font-family:'Open Sans';
         padding: 10px 10px 10px 10px;
         display:block;
@@ -26,12 +60,10 @@
     .btn-color{
        background-color:#f2cf0b;
        font-family:'Open Sans';
-       font-size:1.4em;
+       font-size:1.1em;
        
    }
    
-
-
     input:focus{
         outline:none;
     }
@@ -39,7 +71,7 @@
     label{
         color:#999999;
         font-family:'Open Sans';
-        font-size:18px;
+        font-size:16px;
         font-weight:normal;
         position:absolute;
         pointer-events:none;
@@ -186,7 +218,7 @@
       position:relative;
       display:inline-block;
       vertical-align:middle;
-      margin:2px 0 26px 0;
+      margin:2px 0 24px 0;
       border: solid #757575;
   }
 
@@ -236,7 +268,7 @@
            font-size:1em;
            font-family:'Open Sans';
            color:#fff;
-           margin:2%;
+           margin:1%;
            text-align:center;
        }
 

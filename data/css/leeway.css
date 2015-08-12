@@ -2,7 +2,7 @@
 .navbar{
             font-family : 'Open Sans';
             background-color : #3F9A93;
-            font-size: 1.3em;
+            font-size: 1.1em;
             height:55px;
             line-height:50px;
             color:#ffffff;
@@ -33,11 +33,11 @@
 
         #navigation-fields{
             min-width:486px;
-            width:42%;
+            width:53%;
         }
 
         .mg-lt-links{
-            margin-left:4%;
+            margin-left:1%;
         }
 
         .link-nav-color{
@@ -111,14 +111,6 @@
       color:#ffffff;
       text-decoration:none;
   }
-
-/*index page top social links*/
- 
-
-/*index page banner*/
- 
-        
-/*index page top links*/
         
 
 /*Heading for the index page*/
@@ -135,29 +127,6 @@
            margin-top:10px;
            margin-bottom:10px;
        }
-
-
-/*index page -our services*/
-   
-    
-/*index page contact us info part*/
-          #contact-us{
-        width:100%;
-    }
-
-   .contactus-text{  
-       text-align:center;
-       margin-top:42px;
-       margin-bottom:10px;
-   }
-
-   .contactus-info{
-       font-size:1.5em;
-       font-family:'Open Sans';
-       text-align:center;
-       margin-bottom:3%;
-       margin-top:2%;
-   }  
 
 
 /*Our services heading*/
@@ -862,12 +831,12 @@
     }
 
     #links-social{
-        top:11%;
+        top:16%;
         margin-right:1px;
     }
 
     #banner-leeway{
-        top:17%;
+        top:32%;
         padding:0 0 11px 0;
     }
 
@@ -880,24 +849,8 @@
         font-size:1.3em;
     }
 
-    #top-margin{
-        height:34%;
-    }
-
-    #top-links-1{
-        margin-right:12%;
-    }
-
-    #divider-div-home{
-        height:10%;
-    }
-
     .leeway-img-width{
         width:74%;
-    }
-
-    #link-services{
-        margin-top:12%;
     }
 
     .link-pts-whyus{
@@ -922,13 +875,6 @@
 
     .news{
         line-height:42px;
-    }
-
-    #text-content{
-        margin-left:0;
-        margin-right:0;
-        line-height:normal;
-        font-size:1em;
     }
  
     .whyus-text{
