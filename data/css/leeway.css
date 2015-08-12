@@ -203,25 +203,19 @@
 
 
 /*Our services sub pages- Rural BPO*/
-        .rural-head {
-            font-family: 'Open Sans';
-            font-size: 1.8em;
-            margin-left: 13%;
-            font-weight: 600;
-        }
-
+        
         .rural-text {
             font-family: 'Open Sans';
-            font-size: 1.3em;
-            margin-left: 12%;
-            margin-right: 12%;
+            font-size: 1em;
+            margin-left: 1%;
+            margin-right: 0%;
             text-align: justify;
         }
 
         .rural-main-pts {
             font-family: 'Open Sans';
-            font-size: 1.3em;
-            margin-left: 12%;
+            font-size: 1em;
+            margin-left: 1%;
             margin-right: 12%;
             text-align: justify;
             list-style-type:initial;
@@ -229,16 +223,16 @@
 
         .rural-main-pts1{
             font-family: 'Open Sans';
-            font-size: 1.1em;
-            margin-left: 12%;
-            margin-right: 12%;
+            font-size: 1em;
+            margin-left: 2%;
+            margin-right: 0%;
             text-align: justify;
             list-style-type:decimal;
         }
 
         .rural-main-pts1-text{
             font-family: 'Open Sans';
-            font-size: 1.3em;
+            font-size: 1em;
             margin-left:3%;
             margin-right:0%;
             text-align: justify;
@@ -246,7 +240,7 @@
 
         .rural-main-pts2{
              font-family: 'Open Sans';
-            font-size: 1.3em;
+            font-size: 1em;
             margin-left:3%;
             margin-right:0%;
             text-align: justify;
@@ -334,8 +328,8 @@
 
 .oursrv-text {
     font-family: 'Open Sans';
-            font-size: 1.3em;
-            margin-left: 12%;
+            font-size: 1em;
+            margin-left: 0%;
             margin-right: 12%;
             text-align: justify;
 }
@@ -344,7 +338,7 @@
    font-family: 'Open Sans';
             font-size: 1.8em;
             margin-left: 12%;
-            margin-right: 12%;
+            margin-right: 0;
             text-align: justify;
             font-weight:600;
             text-decoration:underline;
@@ -354,34 +348,34 @@
     font-family: 'Open Sans';
             font-size: 1.3em;
             margin-left: 12%;
-            margin-right: 12%;
+            margin-right: 8%;
             text-align: justify;
             list-style:decimal;
 }
 
 .oursrv-sub-pts-1 {
     font-family: 'Open Sans';
-            font-size: 1.3em;
-            margin-left: 12%;
-            margin-right: 12%;
+            font-size: 1em;
+            margin-left: 0%;
+            margin-right: 5%;
             text-align: justify;
             list-style:lower-alpha;
 }
 
 .oursrv-inner-pts {
     font-family: 'Open Sans';
-            font-size: 1.3em;
-            margin-left: 12%;
-            margin-right: 12%;
+            font-size: 1em;
+            margin-left: 0%;
+            margin-right: 0%;
             text-align: justify;
             list-style:initial;
 }
 
 .oursrv-inner-pts-1 {
     font-family: 'Open Sans';
-            font-size: 1.3em;
-            margin-left: 12%;
-            margin-right: 12%;
+            font-size: 1em;
+            margin-left: 1%;
+            margin-right: 0%;
             text-align: justify;
             list-style:disc;
 }
