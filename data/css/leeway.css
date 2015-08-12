@@ -316,6 +316,77 @@
         }
 
 
+/*Our Services  Page*/
+ .oursrv-head{
+     font-family:'Open Sans';
+           font-size:3.4em;
+           font-weight:700;
+           line-height:10px;
+           margin-top:85px;
+           text-align:center;
+           color:#3F9A93; 
+ }
+
+ .uimg-oursrv{
+     text-align:center;
+           margin-top:20px;
+ }
+
+.oursrv-text {
+    font-family: 'Open Sans';
+            font-size: 1.3em;
+            margin-left: 12%;
+            margin-right: 12%;
+            text-align: justify;
+}
+
+.oursrv-pts {
+   font-family: 'Open Sans';
+            font-size: 1.8em;
+            margin-left: 12%;
+            margin-right: 12%;
+            text-align: justify;
+            font-weight:600;
+            text-decoration:underline;
+}
+
+.oursrv-subpts{
+    font-family: 'Open Sans';
+            font-size: 1.3em;
+            margin-left: 12%;
+            margin-right: 12%;
+            text-align: justify;
+            list-style:decimal;
+}
+
+.oursrv-sub-pts-1 {
+    font-family: 'Open Sans';
+            font-size: 1.3em;
+            margin-left: 12%;
+            margin-right: 12%;
+            text-align: justify;
+            list-style:lower-alpha;
+}
+
+.oursrv-inner-pts {
+    font-family: 'Open Sans';
+            font-size: 1.3em;
+            margin-left: 12%;
+            margin-right: 12%;
+            text-align: justify;
+            list-style:initial;
+}
+
+.oursrv-inner-pts-1 {
+    font-family: 'Open Sans';
+            font-size: 1.3em;
+            margin-left: 12%;
+            margin-right: 12%;
+            text-align: justify;
+            list-style:disc;
+}
+
+
 /*Careers page*/
 .careers-head{
          text-align:center;
