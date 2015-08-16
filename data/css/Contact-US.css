@@ -209,7 +209,8 @@
         word-wrap: break-word
     }
 
-  .big{
+  
+    .big{
       font-size:1.2em;
       font-family:'Open Sans';
   }
@@ -263,6 +264,83 @@
   .col-width-form{
       width:45%;
   }
+      
+
+  /*Dropdown*/
+/*
+.ddyourIndy{
+  	margin: 10px 0px 53px 0px; 
+	text-align: center;
+    font-size: 1.2em;
+	font-family:'Open Sans';
+	margin-left: 0;
+	padding-left: 0;
+	width: 500px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+.ddyourIndy-1 {
+	display: none;
+}
+
+.yourIndyHead:hover > .ddyourIndy-1 {
+	display: block;
+}
+
+.yourIndyHead {
+	float: left;
+	width: 500px;
+	text-align: left;
+	border-bottom: 1px solid #555555; 
+}
+	
+.yourIndyHead:hover {
+	background: #f2f2f2;
+}
+
+.yourIndyHead {
+	display: block; 
+	padding: 15px 10px;
+	color: #999999; 
+	text-decoration: none;
+}
+					
+.ddyourIndy-1 {
+	border-radius: 0px; 
+	padding: 0;
+	position: absolute; 
+	top: 100%;
+}
+
+.yourIndy {
+	float: none;
+	border-bottom: 2px solid #eaeaea; 
+	position: relative;
+}
+
+.yourIndy{
+	padding: 15px 10px;
+	color: #838383;
+}	
+
+.yourIndy:hover {
+	background: #47d583;
+	color: #fff;
+}	
+
+#down-triangle {
+	float: right;
+	width: 0; 
+ 	height: 0;
+ 	margin-top: 10px;
+ 	border-top: 10px solid #2ecc71;
+  border-left: 10px solid transparent; 
+  border-right: 10px solid transparent; 
+}
+*/
+
 
     .note{
            font-size:1em;
