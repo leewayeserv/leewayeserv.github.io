@@ -63,24 +63,50 @@
   }
 
   .mg-lt-rt{
-      margin-left:4%;
-      margin-right:3%;
+      margin-left:2%;
+      margin-right:2%;
   }
 
   .service-list{
       list-style-type:none;
       width:100%;
       text-align:left;
+      margin-top:1%;
   }
+
+.fist-list {
+    width:32%;
+}
+
+.second-list {
+   width:44%;
+}
+
+.main-heading {
+    font-size:1.4em;
+      font-family:'Open Sans';
+      font-weight:bold;
+      border-bottom:1px solid #c2c2c2;
+      color:#999;
+      margin-left:48px;
+}
+
+.first-footer-link {
+    vertical-align:top;
+      display:inline-block;
+      float:left;
+      margin-right:20px;
+}
+
 
   .main-links{
       line-height:15px;
       vertical-align:top;
       display:inline-block;
       text-align:left;
-      width:18%;
+      width:15%;
       margin-bottom:24px;
-      margin-top:10px;
+      text-transform:uppercase;
   }
 
   .link-container{
@@ -91,6 +117,7 @@
       line-height:30px;
       list-style-type:none;
       text-decoration-style:none;
+      text-transform:uppercase;
   }
 
   .sub-link-container{
@@ -102,6 +129,7 @@
       list-style-type:none;
       text-decoration-style:none;
       margin-left:5px;
+      text-transform:uppercase;
   }
 
   .link-color{
@@ -312,6 +340,16 @@
 
 
 /*Our Services  Page*/
+
+.panel-default {
+    border:0;
+}
+
+.panel-body{
+    border:0;
+    border-bottom:0;
+}
+
  .oursrv-head{
      font-family:'Open Sans';
            font-size:3.4em;

@@ -9,7 +9,7 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="data/css/leeway.css" />
+    <link rel="stylesheet" type="text/css" href="data/css/leeway.min.css" />
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -52,23 +52,28 @@
         <p class="oursrv-head">Our Services</p>
         <p class="uimg-oursrv"><img src="UnderlineDesign.jpg"/></p>
 
+        <a id="Outsourcing" style="position:relative;top:-51px;display:block;visibility:hidden;"></a>
         <p class="oursrv-pts">Outsourcing</p>
           
-        <div class="accordion" id="accordion2">
+        <div class="panel-group" id="accordion2">
 
-            <div class="accordion-group">
-                <div class="accordion-heading oursrv-subpts">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                        Finance and Accounting
-                    </a>
-               </div>
-                <div id="collapseOne" class="accordion-body collapse in">
-                    <div class="accordion-inner">
+            <div class="panel panel-default">
+                <div class="panel-heading oursrv-subpts">
+                    <h5 class="panel-title">
+                        <a id="F&Ac" style="position:relative;top:-51px;display:block;visibility:hidden;"></a>
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                            Finance and Accounting
+                        </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                    </h5>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="panel-body" style="border:0;border-bottom:none;">
                         <ul class="oursrv-sub-pts-1" style="margin-left:14%;">
                             <li>
                                 <b><u>Order to Cash:-</u></b> <p class="oursrv-text" style="margin-left:2%;margin-right:0%;">
-                                     Gain significant cost savings and process improvements without disrupting your business. Our services provide 
-                                    complete Order to Cash (O2C) solutions that look at the whole spectrum of your O2C processes</p>
+                                    Gain significant cost savings and process improvements without disrupting your business. Our services provide
+                                    complete Order to Cash (O2C) solutions that look at the whole spectrum of your O2C processes
+                                </p>
 
                                 <ul class="oursrv-inner-pts" style="margin-left:2%;margin-right:0%;font-size:1.1em;">
                                     <li>
@@ -218,27 +223,31 @@
                                 </ul>
                             </li>
                         </ul>
-                     </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="accordion-group">
-                <div class="accordion-heading oursrv-subpts">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                        Customer Interaction Services
-                    </a>
+            <div class="panel panel-default">
+                <div class="panel-heading oursrv-subpts">
+                    <h5 class="panel-title">
+                        <a id="CIS" style="position:relative;top:-51px;display:block;visibility:hidden;"></a>
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                            Customer Interaction Services
+                        </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                    </h5>
                 </div>
-               
-                <div id="collapseTwo" class="accordion-body collapse in">
-                    <div class="accordion-inner">
+
+                <div id="collapseTwo" class="panel-collapse collapse in">
+                    <div class="panel-body" style="border:0;border-bottom:none;">
                         <ul class="oursrv-sub-pts-1" style="margin-left:15%;margin-right:12%;font-size:1.1em;">
                             <li>
-                                <b><u style="margin-left:0%;margin-right:0%;font-size:1.1em;">Customer Care:-</u></b> 
+                                <b><u style="margin-left:0%;margin-right:0%;font-size:1.1em;">Customer Care:-</u></b>
                                 <p class="oursrv-text" style="margin-left:2%;margin-right:0%;font-size:1.1em;">
                                     Responsiveness and effective communication with each of your customers is the core of good customer service. This credo holds true in today's economy
                                     where the orientation of business has become increasingly customer centric. We believe that customer satisfaction
                                     is profitable and affordable, because a satisfied customer becomes your salesman forever. We ensure that all our
-                                    processes and training are focused to deliver customer satisfaction.<p>
+                                    processes and training are focused to deliver customer satisfaction.
+                                <p>
 
                                 <p class="oursrv-text" style="font-weight:bold;margin-left:2%;margin-right:0%;font-size:1.1em;">Services offered under this category :</p>
 
@@ -262,7 +271,7 @@
                             </li>
 
                             <li>
-                                <b><u style="margin-left:0%;margin-right:0%;font-size:1.1em;">Direct Response:-</u></b> 
+                                <b><u style="margin-left:0%;margin-right:0%;font-size:1.1em;">Direct Response:-</u></b>
                                 <p class="oursrv-text" style="margin-left:2%;margin-right:0%;font-size:1.1em;">
                                     Today's contact centers blend with an organization's Advertising and
                                     Promotions program by capturing the media response and converting them into sales. Creating the right sales
@@ -283,7 +292,7 @@
                             </li>
 
                             <li>
-                                <b><u style="margin-left:0%;margin-right:0%;font-size:1.1em;">Marketing:-</u></b> 
+                                <b><u style="margin-left:0%;margin-right:0%;font-size:1.1em;">Marketing:-</u></b>
                                 <p class="oursrv-text" style="margin-left:2%;margin-right:0%;font-size:1.1em;">
                                     In today's business, the consumer is king. Leeway can provide you with valuable
                                     marketing and other business intelligence so that you can monitor the pulse of your current, and potential consumers
@@ -302,19 +311,22 @@
                                 </ul>
                             </li>
                         </ul>
-                       </div>
                     </div>
                 </div>
+            </div>
 
-            <div class="accordion-group">
-                <div class="accordion-heading oursrv-subpts">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-                        Governance, Risk & Compliance and Audit Services
-                    </a>
+            <div class="panel panel-default">
+                <div class="panel-heading oursrv-subpts">
+                    <h5 class="panel-title">
+                        <a id="GRCA" style="position:relative;top:-51px;display:block;visibility:hidden;"></a>
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                            Governance, Risk & Compliance and Audit Services
+                        </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                    </h5>
                 </div>
-               
-                <div id="collapseThree" class="accordion-body collapse in">
-                    <div class="accordion-inner">
+
+                <div id="collapseThree" class="panel-collapse collapse in">
+                    <div class="panel-body" style="border:0;border-bottom:none;">
                         <p class="oursrv-text" style="margin-left:15%;margin-right:12%;font-size:1.1em;">
                             Enhance your reputation, ensure compliance and deliver real business value:
                             our GRC services leverage real-time monitoring and analysis to help companies prepare for the unexpected, while complying with regulatory requirements.
@@ -376,19 +388,22 @@
                             <li>Industry-specific Regulatory Compliance.</li>
                             <li>Monitoring and Reporting</li>
                         </ul>
-                        </div>
                     </div>
                 </div>
+            </div>
 
-            <div class="accordion-group">
-                <div class="accordion-heading oursrv-subpts">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
-                        Human Resource Operations (HRO)
-                    </a>
+            <div class="panel panel-default">
+                <div class="panel-heading oursrv-subpts">
+                    <h5 class="panel-title">
+                        <a id="HRO" style="position:relative;top:-51px;display:block;visibility:hidden;"></a>
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+                            Human Resource Operations (HRO)
+                        </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                    </h5>
                 </div>
-               
-                <div id="collapseFour" class="accordion-body collapse in">
-                    <div class="accordion-inner">
+
+                <div id="collapseFour" class="panel-collapse collapse in">
+                    <div class="panel-body" style="border:0;border-bottom:none;">
                         <p class="oursrv-text" style="font-weight:bold;margin-left:15%;margin-right:12%;font-size:1.1em;">Compensation & Benefits:</p>
                         <ul class="oursrv-inner-pts" style="margin-left:15%;margin-right:12%;font-size:1.1em;">
                             <li>Benefits Administration.</li>
@@ -405,18 +420,21 @@
                             <li>Taxation & Year End Activities.</li>
                             <li>Payroll Helpdesk.</li>
                         </ul>
-                        </div>
                     </div>
-             </div>
-
-            <div class="accordion-group">
-                <div class="accordion-heading oursrv-subpts">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">
-                        Master Data Management
-                    </a>
                 </div>
-                <div id="collapseFive" class="accordion-body collapse in">
-                    <div class="accordion-inner">
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading oursrv-subpts">
+                    <h5 class="panel-title">
+                        <a id="MDM" style="position:relative;top:-51px;display:block;visibility:hidden;"></a>
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">
+                            Master Data Management
+                        </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                    </h5>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse in">
+                    <div class="panel-body" style="border:0;border-bottom:none;">
                         <p class="oursrv-text" style="margin-left:15%;margin-right:12%;font-size:1.1em;">
                             Leeway's Master Data Management (MDM) services is a response to the growing need
                             for information solutions that effectively manage large data volumes, produce accurate data and link businesses’ and customers’ information.
@@ -442,401 +460,431 @@
                                 <b>Customer-centric MDM:</b> Increase revenues and improve customer satisfaction and interaction
                             </li>
                         </ul>
-                        </div>
                     </div>
                 </div>
+            </div>
 
-            <div class="accordion" id="accordion2">
-                <div class="accordion-group">
-                    <div class="accordion-heading oursrv-subpts">
+        
+            <div class="panel panel-default">
+                <div class="panel-heading oursrv-subpts">
+                    <h5 class="panel-title">
+                        <a id="RBPO" style="position:relative;top:-51px;display:block;visibility:hidden;"></a>
                         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix">
                             Rural BPO
-                        </a>
-                    </div>
-                    
-                    <div id="collapseSix" class="accordion-body collapse in">
-                        <div class="accordion-inner">
-                            <p class="rural-text">
-                                Our foray into Rural BPO outsourcing services is a niche service offering with our bold statement to achieve
-                                the following through our unique and structured delivery model :
-                            </p>
+                        </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                    </h5>
+                </div>
 
-                            <ul class="rural-main-pts">
-                                <li>Target 30-40% operational cost savings.</li>
-                                <li>Quick turnaround of projects.</li>
-                                <li>Expert services of data processing professionals.</li>
-                                <li>Risk free outsourcing experience.</li>
-                            </ul>
+                <div id="collapseSix" class="panel-collapse collapse in">
+                    <div class="panel-body" style="border:0;border-bottom:none;">
+                        <p class="rural-text">
+                            Our foray into Rural BPO outsourcing services is a niche service offering with our bold statement to achieve
+                            the following through our unique and structured delivery model :
+                        </p>
 
-                            <p class="rural-text">
-                                Business Process Outsourcing is a great example of globalization. Work like capital is today flowing freely to
-                                places where it gets best value. If the same is true in rural context where the workforce is more consistent, hungry and relatively
-                                cheaper, Indian villages can reap rewards of IT boom in cities. Unfortunately, while the solution looks attractive on paper, we still
-                                have to counter some critical challenges to emerge a winner. Most importantly, we need to offset the benefits of a dense cluster as in
-                                cities with better controlling and merging tools in villages. Concerns on capacity in a decentralised environment, data security and
-                                overall quality control needs to be answered. A strong business case based on social and commercial returns coupled with appropriate
-                                technological intervention has the capability of transforming the rural landscape.
-                            </p>
+                        <ul class="rural-main-pts">
+                            <li>Target 30-40% operational cost savings.</li>
+                            <li>Quick turnaround of projects.</li>
+                            <li>Expert services of data processing professionals.</li>
+                            <li>Risk free outsourcing experience.</li>
+                        </ul>
 
-                            <p class="rural-text">
-                                Our hybrid-model is a source of relatively low cost, customer-centric, quality focused and socially responsible
-                                business process outsourcing that provides meaningful livelihood to educated people of rural & semi-urban India.
-                            </p>
+                        <p class="rural-text">
+                            Business Process Outsourcing is a great example of globalization. Work like capital is today flowing freely to
+                            places where it gets best value. If the same is true in rural context where the workforce is more consistent, hungry and relatively
+                            cheaper, Indian villages can reap rewards of IT boom in cities. Unfortunately, while the solution looks attractive on paper, we still
+                            have to counter some critical challenges to emerge a winner. Most importantly, we need to offset the benefits of a dense cluster as in
+                            cities with better controlling and merging tools in villages. Concerns on capacity in a decentralised environment, data security and
+                            overall quality control needs to be answered. A strong business case based on social and commercial returns coupled with appropriate
+                            technological intervention has the capability of transforming the rural landscape.
+                        </p>
 
-                            <p class="rural-text">
-                                As the Indian domestic market expands to semi-urban and rural markets, we are able to offer prospective clients a cost effective and
-                                culturally specific back-end platform to service customers.
-                            </p>
+                        <p class="rural-text">
+                            Our hybrid-model is a source of relatively low cost, customer-centric, quality focused and socially responsible
+                            business process outsourcing that provides meaningful livelihood to educated people of rural & semi-urban India.
+                        </p>
 
-                            <p class="rural-text">For this reason, our holistic approach to business generates and will continue to generate financial and social returns for all of our stakeholders.</p>
+                        <p class="rural-text">
+                            As the Indian domestic market expands to semi-urban and rural markets, we are able to offer prospective clients a cost effective and
+                            culturally specific back-end platform to service customers.
+                        </p>
 
-                            <p class="rural-text"><b>RURAL BPO BENEFITS</b></p>
+                        <p class="rural-text">For this reason, our holistic approach to business generates and will continue to generate financial and social returns for all of our stakeholders.</p>
 
-                            <p class="rural-text"><b>For Clients:-</b></p>
+                        <p class="rural-text"><b>RURAL BPO BENEFITS</b></p>
 
-                            <ul class="rural-main-pts">
-                                <li>Relatively lower costs as overheads  are on the lower side.</li>
-                                <li>Flexible workforce availability  to match industry fluctuations.</li>
-                                <li>Unique recruitment, training, and certification programs that ensure employees’ abilities to work on complex projects.</li>
-                                <li>Creative and effective solutions that enables ,ore efficient transcription of  documents with ease and enhanced accuracy.</li>
-                                <li>Ability to provide services in multiple Indian languages.</li>
-                                <li>Gain convenient and comprehensive access to rural markets.</li>
-                                <li>Infrastructure to ensure almost 100% uptime for timely delivery of projects.</li>
-                            </ul>
+                        <p class="rural-text"><b>For Clients:-</b></p>
 
-                            <p class="rural-text"><b>For People:-</b></p>
+                        <ul class="rural-main-pts">
+                            <li>Relatively lower costs as overheads  are on the lower side.</li>
+                            <li>Flexible workforce availability  to match industry fluctuations.</li>
+                            <li>Unique recruitment, training, and certification programs that ensure employees’ abilities to work on complex projects.</li>
+                            <li>Creative and effective solutions that enables ,ore efficient transcription of  documents with ease and enhanced accuracy.</li>
+                            <li>Ability to provide services in multiple Indian languages.</li>
+                            <li>Gain convenient and comprehensive access to rural markets.</li>
+                            <li>Infrastructure to ensure almost 100% uptime for timely delivery of projects.</li>
+                        </ul>
 
-                            <ul class="rural-main-pts">
-                                <li>Creation of computer based and knowledge related jobs.</li>
-                                <li>Increased and secured income in predominantly agricultural areas.</li>
-                                <li>Higher savings rate as workers are not displaced from their homes.</li>
-                                <li>Increased income and savings rate that bring about investments in homes, social functions and higher education.</li>
-                                <li>
-                                    New social standing that contributes to greater participation in community matters and women gaining financial
-                                    independence for funding their own education/wedding/social obligations.
-                                </li>
-                                <li>Greater confidence leading to higher aspirations for the future.</li>
-                                <li>Reduction of brain-drain effect while scaling consensus on development of rural India.</li>
-                            </ul>
+                        <p class="rural-text"><b>For People:-</b></p>
 
-                            <p class="rural-text"><b>For Community:-</b></p>
+                        <ul class="rural-main-pts">
+                            <li>Creation of computer based and knowledge related jobs.</li>
+                            <li>Increased and secured income in predominantly agricultural areas.</li>
+                            <li>Higher savings rate as workers are not displaced from their homes.</li>
+                            <li>Increased income and savings rate that bring about investments in homes, social functions and higher education.</li>
+                            <li>
+                                New social standing that contributes to greater participation in community matters and women gaining financial
+                                independence for funding their own education/wedding/social obligations.
+                            </li>
+                            <li>Greater confidence leading to higher aspirations for the future.</li>
+                            <li>Reduction of brain-drain effect while scaling consensus on development of rural India.</li>
+                        </ul>
 
-                            <ul class="rural-main-pts">
-                                <li>
-                                    Phenomenon of ‘Reverse Migration’ where talented, educated rural youth return and stay in their communities because of availability
-                                    of white collar jobs.
-                                </li>
-                                <li>Wealth infusion into local communities through local residents.</li>
-                                <li>Social perception where the community sees a new, realistic path towards prosperity.</li>
-                            </ul>
+                        <p class="rural-text"><b>For Community:-</b></p>
 
-                            <p class="rural-text"><b>For Business:-</b></p>
+                        <ul class="rural-main-pts">
+                            <li>
+                                Phenomenon of ‘Reverse Migration’ where talented, educated rural youth return and stay in their communities because of availability
+                                of white collar jobs.
+                            </li>
+                            <li>Wealth infusion into local communities through local residents.</li>
+                            <li>Social perception where the community sees a new, realistic path towards prosperity.</li>
+                        </ul>
 
-                            <ul class="rural-main-pts">
-                                <li>Lower attrition rates for the industry by leveraging local talent from rural and semi-urban areas.</li>
-                                <li>Cheaper overheads means lower cost and increased industry competitiveness.</li>
-                                <li>Fuel new entrants by marketing the rural BPO model and creating a new mode of business.</li>
-                                <li>Creation of new markets and expansion of urban markets to rural and semi-urban areas as a result of increase in rural-consumer’s buying capacity.</li>
-                            </ul>
+                        <p class="rural-text"><b>For Business:-</b></p>
 
-                            <p class="rural-text"><b><u>LEEWAY RURAL BPO SERVICES</u></b></p>
+                        <ul class="rural-main-pts">
+                            <li>Lower attrition rates for the industry by leveraging local talent from rural and semi-urban areas.</li>
+                            <li>Cheaper overheads means lower cost and increased industry competitiveness.</li>
+                            <li>Fuel new entrants by marketing the rural BPO model and creating a new mode of business.</li>
+                            <li>Creation of new markets and expansion of urban markets to rural and semi-urban areas as a result of increase in rural-consumer’s buying capacity.</li>
+                        </ul>
 
-                            <ul class="rural-main-pts1">
-                                <li>
-                                    <b><u>Data Entry :-</u></b>
-                                    <p class="rural-main-pts1-text">
-                                        Organizations spend a large amount of time, effort and money in conducting data entry activities in-house, wasting time
-                                        that could be spent on anything from lead management, Strategic and Business facing activity to team-building exercises.
-                                    </p>
-                                    <p class="rural-main-pts1-text">
-                                        Our Rural BPO Services could take up your data entry/data mining work, saving you the time,energy and money that you can
-                                        invest in growing your business. Outsourcing data entry services to a company with Rural set up and background of rural BPO workforce might just be the option you are looking for.
-                                    </p>
+                        <p class="rural-text"><b><u>LEEWAY RURAL BPO SERVICES</u></b></p>
 
-                                    <p class="rural-main-pts1-text"><b>Leeway Advantage :</b></p>
-                                    <ul class="rural-main-pts2">
-                                        <li>We have qualified and focused teams for each of our service areas and this helps us understand and convert that into quality and time-focused output.</li>
-                                        <li>Can handle small amounts of data entry as well as large scale data entry, conversion and processing.</li>
-                                        <li>Our operational teams work with double monitors ensuring less errors and lesser time to do the job.</li>
-                                        <li>Stringent quality control measures in place to double check for quality and errors.</li>
-                                    </ul>
+                        <ul class="rural-main-pts1">
+                            <li>
+                                <b><u>Data Entry :-</u></b>
+                                <p class="rural-main-pts1-text">
+                                    Organizations spend a large amount of time, effort and money in conducting data entry activities in-house, wasting time
+                                    that could be spent on anything from lead management, Strategic and Business facing activity to team-building exercises.
+                                </p>
+                                <p class="rural-main-pts1-text">
+                                    Our Rural BPO Services could take up your data entry/data mining work, saving you the time,energy and money that you can
+                                    invest in growing your business. Outsourcing data entry services to a company with Rural set up and background of rural BPO workforce might just be the option you are looking for.
+                                </p>
 
-                                    <p class="rural-main-pts1-text"><b>Services :</b></p>
-                                    <p class="rural-main-pts1-text">Take your pick from the wide range of data entry services that Leeway offers:</p>
-                                    <ul class="rural-main-pts2">
-                                        <li>Data Entry Services.</li>
-                                        <li>Online Data Entry Services.</li>
-                                        <li>Offline Data Entry Services.</li>
-                                        <li>Image Data Entry Services.</li>
-                                        <li>Data Extraction Services.</li>
-                                        <li>Document Management Systems.</li>
-                                        <li>Starting from simple Copy Paste to  Basic data analytics Services.</li>
-                                    </ul>
-                                </li>
+                                <p class="rural-main-pts1-text"><b>Leeway Advantage :</b></p>
+                                <ul class="rural-main-pts2">
+                                    <li>We have qualified and focused teams for each of our service areas and this helps us understand and convert that into quality and time-focused output.</li>
+                                    <li>Can handle small amounts of data entry as well as large scale data entry, conversion and processing.</li>
+                                    <li>Our operational teams work with double monitors ensuring less errors and lesser time to do the job.</li>
+                                    <li>Stringent quality control measures in place to double check for quality and errors.</li>
+                                </ul>
 
-                                <li>
-                                    <b><u>Data Processing :-</u></b>
-                                    <p class="rural-main-pts1-text">
-                                        Automatic data processing and information processing are elements which can help you keep pace with the challenges of your business.
-                                        If your organization is looking for accurate, efficient and fast data processing services, we have the most optimized solutions for you.
-                                    </p>
+                                <p class="rural-main-pts1-text"><b>Services :</b></p>
+                                <p class="rural-main-pts1-text">Take your pick from the wide range of data entry services that Leeway offers:</p>
+                                <ul class="rural-main-pts2">
+                                    <li>Data Entry Services.</li>
+                                    <li>Online Data Entry Services.</li>
+                                    <li>Offline Data Entry Services.</li>
+                                    <li>Image Data Entry Services.</li>
+                                    <li>Data Extraction Services.</li>
+                                    <li>Document Management Systems.</li>
+                                    <li>Starting from simple Copy Paste to  Basic data analytics Services.</li>
+                                </ul>
+                            </li>
 
-                                    <p class="rural-main-pts1-text"><b>Leeway Advantage :</b></p>
-                                    <ul class="rural-main-pts2">
-                                        <li>Get large volumes of data processed and organized.</li>
-                                        <li>Automate and computerize all your data that is stored on paper documents.</li>
-                                        <li>Benefit from accurate data and information.</li>
-                                        <li>Reduce Storing Costs by inculcating practice of e-storage.</li>
-                                    </ul>
+                            <li>
+                                <b><u>Data Processing :-</u></b>
+                                <p class="rural-main-pts1-text">
+                                    Automatic data processing and information processing are elements which can help you keep pace with the challenges of your business.
+                                    If your organization is looking for accurate, efficient and fast data processing services, we have the most optimized solutions for you.
+                                </p>
 
-                                    <p class="rural-main-pts1-text"><b>Services :</b></p>
-                                    <p class="rural-main-pts1-text">Take your pick from our data processing services.</p>
-                                    <ul class="rural-main-pts2">
-                                        <li>Data processing services.</li>
-                                        <li>Forms processing services.</li>
-                                        <li>Survey processing services.</li>
-                                    </ul>
-                                </li>
+                                <p class="rural-main-pts1-text"><b>Leeway Advantage :</b></p>
+                                <ul class="rural-main-pts2">
+                                    <li>Get large volumes of data processed and organized.</li>
+                                    <li>Automate and computerize all your data that is stored on paper documents.</li>
+                                    <li>Benefit from accurate data and information.</li>
+                                    <li>Reduce Storing Costs by inculcating practice of e-storage.</li>
+                                </ul>
 
-                                <li>
-                                    <b><u>Data Conversion :-</u></b>
-                                    <p class="rural-main-pts1-text">
-                                        At Leeway, we provide quality data conversion services designed to meet  specific needs of all our clients by identifying your needs
-                                        and creating services that meet those needs. We can convert you periodicals, reports, journals, catalogs, and financial statements into a richly cohesive set of
-                                        any specified format. In short, we can help you to store, search and retrieve digital versions of any document — anytime, anywhere.
-                                    </p>
+                                <p class="rural-main-pts1-text"><b>Services :</b></p>
+                                <p class="rural-main-pts1-text">Take your pick from our data processing services.</p>
+                                <ul class="rural-main-pts2">
+                                    <li>Data processing services.</li>
+                                    <li>Forms processing services.</li>
+                                    <li>Survey processing services.</li>
+                                </ul>
+                            </li>
 
-                                    <p class="rural-main-pts1-text"><b>Leeway Advantage :</b></p>
+                            <li>
+                                <b><u>Data Conversion :-</u></b>
+                                <p class="rural-main-pts1-text">
+                                    At Leeway, we provide quality data conversion services designed to meet  specific needs of all our clients by identifying your needs
+                                    and creating services that meet those needs. We can convert you periodicals, reports, journals, catalogs, and financial statements into a richly cohesive set of
+                                    any specified format. In short, we can help you to store, search and retrieve digital versions of any document — anytime, anywhere.
+                                </p>
 
-                                    <ul class="rural-main-pts2">
-                                        <li>Our team can handle a thousand pages, a million pages, or more – with each document, each word converted consistently, reliably, and within specified timelines.</li>
-                                        <li>We can provide you with a well-honed document conversion process with guaranteed and fully tailored results.</li>
-                                        <li>Leeway’s data conversion processes are scalable to any production level.</li>
-                                    </ul>
-                                    <br />
-                                    <p class="rural-main-pts1-text"><b>Services :</b></p>
-                                    <p class="rural-main-pts1-text">Take your pick from our data conversion services:</p>
-                                    <ul class="rural-main-pts2">
-                                        <li>File conversion services.</li>
-                                        <li>Document conversion services.</li>
-                                        <li>Document digitizing services.</li>
-                                        <li>Data conversion services.</li>
-                                        <li>Electronic data conversion services.</li>
-                                        <li>PDF conversion services.</li>
-                                        <li>XML conversion services.</li>
-                                        <li>Book conversion services.</li>
-                                        <li>Word formatting services.</li>
-                                        <li>HTML conversion services.</li>
-                                    </ul>
-                                </li>
+                                <p class="rural-main-pts1-text"><b>Leeway Advantage :</b></p>
 
-                                <li>
-                                    <b><u>Document Scanning :-</u></b>
-                                    <p class="rural-main-pts1-text">
-                                        Document scanning is a process of scanning the paper documents and converting them into image formats. These images can then be stored whilst
-                                        the bulky paper-work can be purged to save a lot of space. Maintenance and retrieval of this soft copy image format becomes much easier than the conventional paper documents.
-                                        At Leeway we have technology with the latest scanners and a highly trained workforce. Our document scanning approach is well equipped for both manual data entry as well as high
-                                        speed OCR/ICR mode of scanning.
-                                    </p>
+                                <ul class="rural-main-pts2">
+                                    <li>Our team can handle a thousand pages, a million pages, or more – with each document, each word converted consistently, reliably, and within specified timelines.</li>
+                                    <li>We can provide you with a well-honed document conversion process with guaranteed and fully tailored results.</li>
+                                    <li>Leeway’s data conversion processes are scalable to any production level.</li>
+                                </ul>
+                                <br />
+                                <p class="rural-main-pts1-text"><b>Services :</b></p>
+                                <p class="rural-main-pts1-text">Take your pick from our data conversion services:</p>
+                                <ul class="rural-main-pts2">
+                                    <li>File conversion services.</li>
+                                    <li>Document conversion services.</li>
+                                    <li>Document digitizing services.</li>
+                                    <li>Data conversion services.</li>
+                                    <li>Electronic data conversion services.</li>
+                                    <li>PDF conversion services.</li>
+                                    <li>XML conversion services.</li>
+                                    <li>Book conversion services.</li>
+                                    <li>Word formatting services.</li>
+                                    <li>HTML conversion services.</li>
+                                </ul>
+                            </li>
 
-                                    <p class="rural-main-pts1-text"><b>Leeway Advantage :</b></p>
+                            <li>
+                                <b><u>Document Scanning :-</u></b>
+                                <p class="rural-main-pts1-text">
+                                    Document scanning is a process of scanning the paper documents and converting them into image formats. These images can then be stored whilst
+                                    the bulky paper-work can be purged to save a lot of space. Maintenance and retrieval of this soft copy image format becomes much easier than the conventional paper documents.
+                                    At Leeway we have technology with the latest scanners and a highly trained workforce. Our document scanning approach is well equipped for both manual data entry as well as high
+                                    speed OCR/ICR mode of scanning.
+                                </p>
 
-                                    <ul class="rural-main-pts2">
-                                        <li>Highly cost effective pricing packages.</li>
-                                        <li>Output images in various image formats as well as the image only PDF format.</li>
-                                        <li>Extreme confidentiality and privacy of your sensitive data.</li>
-                                        <li>Highly customized pricing packages as per your scanning requirements.</li>
-                                        <li>Customer service which provides assistance round the clock.</li>
-                                    </ul>
+                                <p class="rural-main-pts1-text"><b>Leeway Advantage :</b></p>
 
-                                    <p class="rural-main-pts1-text"><b>Services :</b></p>
-                                    <p class="rural-main-pts1-text">Take your pick from our document scanning services.</p>
-                                    <ul class="rural-main-pts2">
-                                        <li>Technical Instruction manuals.</li>
-                                        <li>Legal case files.</li>
-                                        <li>Graphic images.</li>
-                                        <li>Handwritten notes.</li>
-                                    </ul>
-                                </li>
+                                <ul class="rural-main-pts2">
+                                    <li>Highly cost effective pricing packages.</li>
+                                    <li>Output images in various image formats as well as the image only PDF format.</li>
+                                    <li>Extreme confidentiality and privacy of your sensitive data.</li>
+                                    <li>Highly customized pricing packages as per your scanning requirements.</li>
+                                    <li>Customer service which provides assistance round the clock.</li>
+                                </ul>
 
-                                <li>
-                                    <b><u>Web Research :-</u></b>
-                                    <p class="rural-main-pts1-text">We provide research support for the following areas keeping in mind your specifications and requirements.</p>
+                                <p class="rural-main-pts1-text"><b>Services :</b></p>
+                                <p class="rural-main-pts1-text">Take your pick from our document scanning services.</p>
+                                <ul class="rural-main-pts2">
+                                    <li>Technical Instruction manuals.</li>
+                                    <li>Legal case files.</li>
+                                    <li>Graphic images.</li>
+                                    <li>Handwritten notes.</li>
+                                </ul>
+                            </li>
 
-                                    <ul class="rural-main-pts2">
-                                        <li>Web Research.</li>
-                                        <li>Data Mining.</li>
-                                        <li>Internet Search, Product Research, Market Research, Survey, Analysis.</li>
-                                        <li>Web search and online Form Entry and web-to-web entry.</li>
-                                        <li>Online research and create a Database into Microsoft Office.</li>
-                                    </ul>
-                                </li>
+                            <li>
+                                <b><u>Web Research :-</u></b>
+                                <p class="rural-main-pts1-text">We provide research support for the following areas keeping in mind your specifications and requirements.</p>
 
-                                <li>
-                                    <b><u>Call Center :-</u></b>
-                                    <ul class="rural-main-pts2">
-                                        <li>High Quality.</li>
-                                        <li>Cost Effective.</li>
-                                        <li>Vernacular Services.</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <br />
+                                <ul class="rural-main-pts2">
+                                    <li>Web Research.</li>
+                                    <li>Data Mining.</li>
+                                    <li>Internet Search, Product Research, Market Research, Survey, Analysis.</li>
+                                    <li>Web search and online Form Entry and web-to-web entry.</li>
+                                    <li>Online research and create a Database into Microsoft Office.</li>
+                                </ul>
+                            </li>
 
-                            <p class="rural-text"><b>Leeway provides a range of outsourced telephone services at affordable pricing for even the smallest business:-</b></p>
-                            <br />
-                            <ul class="rural-main-pts1">
-                                <li>
-                                    <b><u>Reduce Capex :-</u></b>
-                                    <p class="rural-main-pts1-text">
-                                        Reduction in usual outlay costs such as purchasing telephone equipment; ordering additional phones lines;
-                                        finding additional office space and taking on new staff.
-                                    </p>
-                                </li>
+                            <li>
+                                <b><u>Call Center :-</u></b>
+                                <ul class="rural-main-pts2">
+                                    <li>High Quality.</li>
+                                    <li>Cost Effective.</li>
+                                    <li>Vernacular Services.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <br />
 
-                                <li>
-                                    <b><u>Scalability :-</u></b>
-                                    <p class="rural-main-pts1-text">Our rural model gives us advantage to tap the vast pool of talent and reduce the attrition to bare minimum.</p>
-                                </li>
+                        <p class="rural-text"><b>Leeway provides a range of outsourced telephone services at affordable pricing for even the smallest business:-</b></p>
+                        <br />
+                        <ul class="rural-main-pts1">
+                            <li>
+                                <b><u>Reduce Capex :-</u></b>
+                                <p class="rural-main-pts1-text">
+                                    Reduction in usual outlay costs such as purchasing telephone equipment; ordering additional phones lines;
+                                    finding additional office space and taking on new staff.
+                                </p>
+                            </li>
 
-                                <li>
-                                    <b><u>Inbound Call Center Service :-</u></b>
-                                    <p class="rural-main-pts1-text">Outsource your call handling to Leeway and dramatically reduce staffing costs without missing opportunities :</p>
+                            <li>
+                                <b><u>Scalability :-</u></b>
+                                <p class="rural-main-pts1-text">Our rural model gives us advantage to tap the vast pool of talent and reduce the attrition to bare minimum.</p>
+                            </li>
 
-                                    <ul class="rural-main-pts2">
-                                        <li>
-                                            <b>“Answering service”</b> is always helpful to increase your business and to advertise your products or services in the market. our qualified
-                                            and trained  team of professionals takes the calls  and provides the information within fast turnaround times.
-                                        </li>
-                                        <li>
-                                            <b>“Customer Care service”</b> can assist you in optimizing every customer interaction, from revenue generation through reduced cost-per-contact
-                                            while maintaining or exceeding current quality levels.
-                                        </li>
-                                        <li><b>“Order taking service”</b> help companies to sell their products or services and attend to calls so that companies don’t lose any of the sales or inbound calls.</li>
-                                    </ul>
-                                </li>
+                            <li>
+                                <b><u>Inbound Call Center Service :-</u></b>
+                                <p class="rural-main-pts1-text">Outsource your call handling to Leeway and dramatically reduce staffing costs without missing opportunities :</p>
 
-                                <li>
-                                    <b><u>Outbound Call Center Service :-</u></b>
-                                    <ul class="rural-main-pts2">
-                                        <li>
-                                            <b>Telemarketing :</b>
-                                            <p>Boost sales, find prospects, renew or upgrade accounts, generate leads and appointments or promote your products to existing or new clients.</p>
-                                        </li>
-                                        <li>
-                                            <b>Telecollection :</b>
-                                            <p>Optimize liquidation of portfolio. Our efficient agents can collect and provide information relevant to a line of business, which is not only cost-effective but also saves a great deal of time.</p>
-                                        </li>
-                                        <li>
-                                            <b>Surveys/Lead Generation :</b>
-                                            <p>Cost effective solutions to generate sales leads, manage surveys and help Organizations grow their top line and enable their Management Team in taking key business decisions.</p>
-                                        </li>
-                                    </ul>
-                                </li>
-                             </ul>
-                            </div>
-                        </div>
+                                <ul class="rural-main-pts2">
+                                    <li>
+                                        <b>“Answering service”</b> is always helpful to increase your business and to advertise your products or services in the market. our qualified
+                                        and trained  team of professionals takes the calls  and provides the information within fast turnaround times.
+                                    </li>
+                                    <li>
+                                        <b>“Customer Care service”</b> can assist you in optimizing every customer interaction, from revenue generation through reduced cost-per-contact
+                                        while maintaining or exceeding current quality levels.
+                                    </li>
+                                    <li><b>“Order taking service”</b> help companies to sell their products or services and attend to calls so that companies don’t lose any of the sales or inbound calls.</li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <b><u>Outbound Call Center Service :-</u></b>
+                                <ul class="rural-main-pts2">
+                                    <li>
+                                        <b>Telemarketing :</b>
+                                        <p>Boost sales, find prospects, renew or upgrade accounts, generate leads and appointments or promote your products to existing or new clients.</p>
+                                    </li>
+                                    <li>
+                                        <b>Telecollection :</b>
+                                        <p>Optimize liquidation of portfolio. Our efficient agents can collect and provide information relevant to a line of business, which is not only cost-effective but also saves a great deal of time.</p>
+                                    </li>
+                                    <li>
+                                        <b>Surveys/Lead Generation :</b>
+                                        <p>Cost effective solutions to generate sales leads, manage surveys and help Organizations grow their top line and enable their Management Team in taking key business decisions.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
+            </div>
         </div>
 
-            <div class="accordion" id="accordion3">
+        
+        <div class="panel-group" id="accordion3">
+            
+            <a id="Consulting" style="position:relative;top:-51px;display:block;visibility:hidden;"></a>
+            <p class="oursrv-pts">Consulting</p>
 
-                <p class="oursrv-pts">Consulting</p>
-
-                <div class="accordion-group">
-                    <div class="accordion-heading oursrv-subpts">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapseA1">
+            <div class="panel panel-default">
+                <div class="panel-heading oursrv-subpts">
+                    <h5 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapseA1" id="FAC">
                             Finance and Accounting Consulting
-                        </a>
-                    </div>
-                    
-                    <div id="collapseA1" class="accordion-body collapse in">
-                        <div class="accordion-inner">
-                            <ul class="oursrv-sub-pts-1" style="margin-left:15%;margin-right:12%;font-size:1.1em;">
-                                <li>Benchmarking and Transformation roadmap.</li>
-                                <li>Common Minimum Standards.</li>
-                                <li>Industry specific domain expertise.</li>
-                                <li>Digital Transformation.</li>
-                                <li>Risk Advisory</li>
-                            </ul>
-                        </div>
-                    </div>
-                  </div>
+                        </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                    </h5>
+                </div>
 
-                <div class="accordion-group">
-                    <div class="accordion-heading oursrv-subpts">
+                <div id="collapseA1" class="panel-collapse collapse in">
+                    <div class="panel-body" style="border:0;border-bottom:none;">
+                        <ul class="oursrv-sub-pts-1" style="margin-left:15%;margin-right:12%;font-size:1.1em;">
+                            <li>Benchmarking and Transformation roadmap.</li>
+                            <li>Common Minimum Standards.</li>
+                            <li>Industry specific domain expertise.</li>
+                            <li>Digital Transformation.</li>
+                            <li>Risk Advisory</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading oursrv-subpts">
+                    <h5 class="panel-title">
+                        <a id="CFOA" style="position:relative;top:-51px;display:block;visibility:hidden;"></a>
                         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapseA2">
                             CFO Analytics
-                        </a>
-                    </div>
-                    <div id="collapseA2" class="accordion-body collapse in">
-                        <div class="accordion-inner">
-                            <p class="oursrv-text" style="margin-left:15%;margin-right:12%;font-size:1.1em;">
-                                CFOs across all industries share a common goal: to create a world-class finance organization. Today, that means more than an efficient and effective finance organization.
-                                To achieve optimum performance in a challenging global marketplace, companies are looking to their finance function for insights that will drive business improvement.
-                            </p>
-                            <p class="oursrv-text" style="font-weight:bold;margin-left:15%;margin-right:12%;font-size:1.1em;">Our 6 Steps Approach to achieve CFO’s agenda on Outsourced Finance & Accounting :</p>
-                            <ul class="oursrv-sub-pts-1" style="margin-left:14%;margin-right:12%;font-size:1.1em;">
-                                <li>Identify and drive Key Performance Indicators (KPIs) in F&A.</li>
-                                <li>Reduce complexity in diverse regulatory & controllership needs rising from geographical spread into countries operating in strict regulatory environment.</li>
-                                <li>Talent retention and Investments in analytical talent.</li>
-                                <li>Tighten grip on departmental budgets and performance against budgets through timely reporting and tracking.</li>
-                                <li>Establish an efficient knowledge management through good documentation and knowledge retention practices.</li>
-                                <li>Ubiquity of technology</li>
-                            </ul>
-                      </div>
-                    </div>
-                   </div>
-                   
+                        </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                    </h5>
                 </div>
+                <div id="collapseA2" class="panel-collapse collapse in">
+                    <div class="panel-body" style="border:0;border-bottom:none;">
+                        <p class="oursrv-text" style="margin-left:15%;margin-right:12%;font-size:1.1em;">
+                            CFOs across all industries share a common goal: to create a world-class finance organization. Today, that means more than an efficient and effective finance organization.
+                            To achieve optimum performance in a challenging global marketplace, companies are looking to their finance function for insights that will drive business improvement.
+                        </p>
+                        <p class="oursrv-text" style="font-weight:bold;margin-left:15%;margin-right:12%;font-size:1.1em;">Our 6 Steps Approach to achieve CFO’s agenda on Outsourced Finance & Accounting :</p>
+                        <ul class="oursrv-sub-pts-1" style="margin-left:14%;margin-right:12%;font-size:1.1em;">
+                            <li>Identify and drive Key Performance Indicators (KPIs) in F&A.</li>
+                            <li>Reduce complexity in diverse regulatory & controllership needs rising from geographical spread into countries operating in strict regulatory environment.</li>
+                            <li>Talent retention and Investments in analytical talent.</li>
+                            <li>Tighten grip on departmental budgets and performance against budgets through timely reporting and tracking.</li>
+                            <li>Establish an efficient knowledge management through good documentation and knowledge retention practices.</li>
+                            <li>Ubiquity of technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 </div>
 
     <a id="footer" style="position:relative;top:-51px;display:block;visibility:hidden;"></a>
     <footer>
         <div class="footer-header"></div>
         <div class="row mg-lt-rt links-container">
-            <div class="service-list">
-                <div class="main-links">
-                    <span class="link-container"><a class="link-color" href="index.html">HOME</a></span>
-                    <span class="link-container"><a class="link-color" href="whyus.html">WHY US</a></span>
-                    <span class="link-container"><a class="link-color" href="careers.html">CAREERS</a></span>
-                    <span class="link-container"><a class="link-color" href="ContactUs.html">CONTACT US</a></span>
+            <div class="service-list col-sm-12">
+                <div class="fist-list col-sm-6">
+                    <div class="main-heading">
+                        <a class="link-color" href="YourIndustry.html" style="margin-left:73px;">YOUR INDUSTRY</a>
+                    </div>
+                        <ul class="first-footer-link">
+                            <li class="sub-link-container"><a class="link-color" href="Banking.html">BANKING & FINANCIAL SERVICES</a></li>
+                            <li class="sub-link-container"><a class="link-color" href="Insurrance.html">INSURANCE</a></li>
+                            <li class="sub-link-container"><a class="link-color" href="Health.html">HEALTH ADMINISTRATION</a></li>
+                            <li class="sub-link-container"><a class="link-color" href="Utilities.html">UTILITIES</a></li>
+                            <li class="sub-link-container"><a class="link-color" href="Manu.html">MANUFACTURING & RETAIL</a></li>
+                            <li class="sub-link-container"><a class="link-color" href="Network.html">NETWORK</a></li>
+                        </ul>
 
+
+                        <ul class="second-footer-link">                            
+                            <li class="sub-link-container"><a class="link-color" href="Media.html">MEDIA, ENTERTAINMENT & COMMUNICATION</a></li>
+                            <li class="sub-link-container"><a class="link-color" href="Market.html">MARKETING</a></li>
+                            <li class="sub-link-container"><a class="link-color" href="Ship.html">SHIPPING & LOGISTIC</a></li>
+                            <li class="sub-link-container"><a class="link-color" href="Travel.html">TRAVEL, LOGISTIC & HOSPITALITY</a></li>
+
+                        </ul>
+                    
                 </div>
+                
+                <div class="second-list col-sm-6">
+                    <div class="main-heading">
+                        <a class="link-color" href="OurServices.html" style="margin-left:132px;">OUR SERVICES</a>
+                    </div>
+                    <ul class="first-footer-link">
+                        <li class="link-container"><a class="link-color" href="#Outsourcing" style="font-size:1.2em;">OUTSOURCING</a></li>
+                        <li class="sub-link-container"><a class="link-color" href="#F&Ac">Finance and Accounting</a></li>
+                        <li class="sub-link-container"><a class="link-color" href="#CIS">Customer Interaction Services</a></li>
+                        <li class="sub-link-container"><a class="link-color" href="#HRO">Human Resource Operations (HRO)</a></li>
+                        <li class="sub-link-container"><a class="link-color" href="#GRCA">Governance, Risk & Compliance and Audit Services</a></li>
+                        <li class="sub-link-container"><a class="link-color" href="#MDM">Master Data Management</a></li>
+                        <li class="sub-link-container"><a class="link-color" href="#RBPO">Rural BPO</a></li>
+                    </ul>
 
-                <div class="main-links">
-                    <span class="link-container"><a class="link-color" href="NewsUpdates.html">NEWS & UPDATES</a></span>
-                    <span class="link-container"><a class="link-color" href="#">OUR SERVICES</a></span>
-                    <span class="link-container"><a class="link-color" href="YourIndustry.html">YOUR INDUSTRY</a></span>
-                    <span class="sub-link-container"><a class="link-color" href="Banking.html">BANKING & FINANCIAL SERVICES</a></span>
+                    <ul class="second-footer-link">                    
+                        <li class="link-container" style="font-size:1.2em;"><a class="link-color" href="#Consulting">Consulting</a></li>
+                        <li class="sub-link-container"><a class="link-color" href="#FAC">Finance and Accounting Consulting</a></li>
+                        <li class="sub-link-container"><a class="link-color" href="#CFOA">CFO Analytics</a></li>
+                    </ul>
 
-                </div>
-
-                <div class="main-links">
-                    <span class="sub-link-container"><a class="link-color" href="Insurrance.html">INSURANCE</a></span>
-                    <span class="sub-link-container"><a class="link-color" href="Health.html">HEALTH ADMINISTRATION</a></span>
-                    <span class="sub-link-container"><a class="link-color" href="Utilities.html">UTILITIES</a></span>
-                    <span class="sub-link-container"><a class="link-color" href="Manu.html">MANUFACTURING & RETAIL</a></span>
-                    <span class="sub-link-container"><a class="link-color" href="Network.html">NETWORK</a></span>
-
-                </div>
-                <div class="main-links">
-                    <span class="sub-link-container"><a class="link-color" href="Media.html">MEDIA, ENTERTAINMENT & COMMUNICATION</a></span>
-                    <span class="sub-link-container"><a class="link-color" href="Market.html">MARKETING</a></span>
-                    <span class="sub-link-container"><a class="link-color" href="Ship.html">SHIPPING & LOGISTIC</a></span>
-                    <span class="sub-link-container"><a class="link-color" href="Travel.html">TRAVEL, LOGISTIC & HOSPITALITY</a></span>
                 </div>
                 <div class="main-links">
                     <div class=" pull-right">
+                        <span class="link-container" style="font-size:1.4em;"><a class="link-color" href="NewsUpdates.html">NEWS & UPDATES</a></span>                      
                         <a href=" https://www.facebook.com/LeewayEServBPO"> <img src="fb.png" /> </a>
                         <a href="https://twitter.com/LeewayEServBPO"><img src="twitter.png" /></a>
                         <a href="https://www.linkedin.com/in/leewayeserv"><img src="linkedin.png" /></a>
                     </div>
                 </div>
+                   
             </div>
         </div>
     </footer>
+
+
+    <!--Chevron Script-->
+    <script src="data/js/Chevron.min.js" type="text/javascript"></script>
 
 </body>
 </html>
