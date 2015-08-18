@@ -1,4 +1,4 @@
-﻿/*Contact us message box*/
+/*Contact us message box*/
 
 .heading-contact {
     font-size:3em;
@@ -56,6 +56,113 @@
         background:transparent;
         border-bottom: 1px solid #757575;
     }
+    input:focus{
+        outline:none;
+    }
+    input:focus ~ label, input:valid ~ label{
+        top:-20px;
+        font-size:14px;
+        color:#ffffff;
+    }
+    input:focus ~ .bar:before, input:focus ~ .bar:after{
+        width:50%;
+    }
+    input:focus ~ .highlight{
+        -webkit-animation:inputHighlighter 0.4s ease;
+        -moz-animation:inputHighlighter 0.4s ease;
+        animation:inputHighlighter 0.4s ease;
+    }
+
+    @-webkit-keyframes inputHighlighter {
+        from{
+            background:#ffffff;
+        }
+        to{
+            width:0;
+            background:transparent;
+        }
+    }
+
+    @-moz-keyframes inputHighlighter {
+        from{
+            background:#ffffff;
+        }
+        to{
+            width:0;
+            background:transparent;
+        }
+    }
+
+    @keyframes inputHighlighter{
+        from{
+            background:#ffffff;
+        }
+        to{
+            width:0;
+            background:transparent;
+        }
+    }
+
+
+select{
+    font-size:14px;
+    font-family:'Open Sans';
+    padding: 10px 10px 10px 10px;
+    display:block;
+    width:100%;
+    border:none;
+    background-color:#000000;
+    color:#fff;
+    border-bottom: 1px solid #757575;
+}
+select:focus{
+    outline:none;
+}
+select:focus ~ label, select:valid ~ label{
+    top:-20px;
+    font-size:14px;
+    color:#ffffff;
+}
+select:focus ~ .bar:before, select:focus ~ .bar:after{
+    width:50%;
+}
+select:focus ~ .highlight{
+    -webkit-animation:selectHighlighter 0.4s ease;
+    -moz-animation:selectHighlighter 0.4s ease;
+    animation:selectHighlighter 0.4s ease;
+}
+
+@-webkit-keyframes selectHighlighter {
+    from{
+        background:#ffffff;
+    }
+    to{
+        width:0;
+        background:transparent;
+    }
+}
+
+@-moz-keyframes selectHighlighter {
+    from{
+        background:#ffffff;
+    }
+    to{
+        width:0;
+        background:transparent;
+    }
+}
+
+@keyframes selectHighlighter{
+    from{
+        background:#ffffff;
+    }
+    to{
+        width:0;
+        background:transparent;
+    }
+}
+
+
 
     .btn-color{
        background-color:#f2cf0b;
@@ -63,10 +170,6 @@
        font-size:1.1em;
        
    }
-   
-    input:focus{
-        outline:none;
-    }
 
     label{
         color:#999999;
@@ -80,12 +183,6 @@
         transition: 0.3s ease all;
         -moz-transition:0.3s ease all;
         -webkit-transition:0.3s ease all;
-    }
-
-    input:focus ~ label, input:valid ~ label{
-        top:-20px;
-        font-size:14px;
-        color:#ffffff;
     }
 
     .bar{
@@ -114,10 +211,6 @@
         right:50%;
     }
 
-    input:focus ~ .bar:before, input:focus ~ .bar:after{
-        width:50%;
-    }
-
     .highlight{
         position:absolute;
         height:60%;
@@ -126,42 +219,6 @@
         left:0;
         pointer-events:none;
         opacity:0.5;
-    }
-
-    input:focus ~ .highlight{
-        -webkit-animation:inputHighlighter 0.4s ease;
-        -moz-animation:inputHighlighter 0.4s ease;
-        animation:inputHighlighter 0.4s ease;
-    }
-
-    @-webkit-keyframes inputHighlighter {
-        from{
-              background:#ffffff;
-        }
-        to{
-            width:0;
-            background:transparent;
-        }
-    }
-
-    @-moz-keyframes inputHighlighter {
-        from{
-              background:#ffffff;
-        }
-        to{
-            width:0;
-            background:transparent;
-        }
-    }
-
-    @keyframes inputHighlighter{
-         from{
-              background:#ffffff;
-        }
-        to{
-            width:0;
-            background:transparent;
-        }
     }
 
     #overlay {

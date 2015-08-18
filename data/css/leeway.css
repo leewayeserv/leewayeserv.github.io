@@ -1,4 +1,4 @@
-﻿/*Navigation Bar*/  
+/*Navigation Bar*/
 .navbar{
             font-family : 'Open Sans';
             background-color : #3F9A93;
@@ -389,8 +389,8 @@
 
 .oursrv-subpts{
     font-family: 'Open Sans';
-            font-size: 1.3em;
-            margin-left: 14%;
+            font-size: 1em;
+            margin-left: 12%;
             margin-right: 8%;
             text-align: justify;
             list-style:decimal;
@@ -398,27 +398,21 @@
 
 .oursrv-sub-pts-1 {
     font-family: 'Open Sans';
-            font-size: 1.1em;
-            margin-left: 0%;
-            margin-right: 12%;
+            font-size: 1em;
             text-align: justify;
             list-style:lower-alpha;
 }
 
 .oursrv-inner-pts {
     font-family: 'Open Sans';
-            font-size: 1.1em;
-            margin-left: 15%;
-            margin-right: 0%;
+            font-size: 1em;
             text-align: justify;
             list-style:initial;
 }
 
 .oursrv-inner-pts-1 {
     font-family: 'Open Sans';
-            font-size: 1.1em;
-            margin-left: 15%;
-            margin-right: 0%;
+            font-size: 1em;
             text-align: justify;
             list-style:disc;
 }
