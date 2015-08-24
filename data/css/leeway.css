@@ -87,7 +87,7 @@
 }
 
 .main-heading {
-    font-size:1.4em;
+    font-size:1.2em;
       font-family:'Open Sans';
       font-weight:bold;
       border-bottom:1px solid #c2c2c2;
@@ -239,26 +239,32 @@
         
         .rural-text {
             font-family: 'Open Sans';
+/*
             font-size: 1.1em;
             margin-left: 15%;
             margin-right: 12%;
+*/
             text-align: justify;
         }
 
         .rural-main-pts {
             font-family: 'Open Sans';
+/*
             font-size: 1.1em;
             margin-left: 15%;
             margin-right: 12%;
+*/
             text-align: justify;
             list-style-type:initial;
         }
 
         .rural-main-pts1{
             font-family: 'Open Sans';
+/*
             font-size: 1.1em;
             margin-left: 16%;
             margin-right: 12%;
+*/
             text-align: justify;
             list-style-type:decimal;
         }
@@ -371,10 +377,12 @@
 
 .oursrv-text {
     font-family: 'Open Sans';
+/*
             font-size: 1.1em;
             margin-left: 15%;
             margin-right: 12%;
-            text-align: justify;
+*/
+    text-align: justify;
 }
 
 .oursrv-pts {
