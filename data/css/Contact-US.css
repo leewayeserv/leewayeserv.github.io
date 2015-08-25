@@ -54,6 +54,7 @@
         width:100%;
         border:none;
         background:transparent;
+        color:#fff;
         border-bottom: 1px solid #757575;
     }
     input:focus{
@@ -111,9 +112,13 @@ select{
     display:block;
     width:100%;
     border:none;
-    background-color:#000000;
+    background-color:transparent;
+    -webkit-appearance: none;
     color:#fff;
     border-bottom: 1px solid #757575;
+}
+option{
+    background-color:#000;
 }
 select:focus{
     outline:none;
