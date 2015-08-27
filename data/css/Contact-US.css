@@ -177,7 +177,7 @@ select:focus ~ .highlight{
    }
 
     label{
-        color:#999999;
+        color:#fff;
         font-family:'Open Sans';
         font-size:16px;
         font-weight:normal;
