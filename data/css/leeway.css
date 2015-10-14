@@ -490,6 +490,12 @@
 
 
 /*Why US page*/
+
+.panel-boxShadow{
+        border: 1px solid #ccc;
+    box-shadow: 0 5px 5px -5px #333;
+}
+
 .whyus-head{
          text-align:center;
            color:#3F9A93; 
@@ -673,7 +679,6 @@
 
    .hover-yourIndy:hover{
        background-color:#f5f5f5;
-       border-bottom:6px solid #d5d2d2;
    }
 
     .indy-head-yourIndy{
@@ -706,9 +711,14 @@
         color:#007AFF;
     }
 
+    .indyMargin_lt_rt{
+        margin-left:12px;
+        margin-right:12px;
+    }
+
 
     .mg-bottom-indy{
-        margin-bottom:80px;
+        margin-bottom:30px;
     }
 
     .link-yourIndy{
